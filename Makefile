@@ -27,10 +27,17 @@ clean:
 		if [ -f $${font}.ttf ]; then rm -f $${font}.ttf; fi \
 	done
 
-test:*.ttf
+test: *.ttf
 # Test the fonts
 	@for font in `echo ${fonts}`; \
-        do \
-		hb-view $${font}.ttf --text-file autonyms.txt --output-file autonyms.pdf; \
+	do \
+		hb-view $${font}.ttf --debug --text-file autonyms.txt --output-file autonyms.pdf; \
 	done
 
+webfonts: *.ttf
+# generate webfonts
+	@for font in `echo ${fonts}`; \
+	do \
+		sfntly -w $${font}.ttf $${font}.woff; \
+		sfntly -e -x $${font}.ttf $${font}.eot; \
+	done
