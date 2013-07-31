@@ -1,7 +1,6 @@
 Qafár af
 Аҧсшәа
 Acèh
-2
 Адыгэбзэ
 Adygabze
 زَوُن
@@ -27,7 +26,6 @@ asturianu
 авар
 Kotava
 Aymar aru
-2
 azərbaycanca
 آذربايجانجا
 азәрбајҹанҹа
@@ -39,13 +37,11 @@ Boarisch
 Batak Toba
 بلوچی مکرانی
 Bikol Central
-2
 беларуская (тарашкевіца)
 беларуская
 Bahasa Betawi
 படகா
 български
-2
 भोजपुरी
 Bislama
 Bahasa Banjar
@@ -73,7 +69,6 @@ Tsetsêhestâhese
 کوردی
 corsu
 Capiceño
-2
 ᓀᐦᐃᔭᐍᐏᐣ
 Nēhiyawēwin
 qırımtatarca
@@ -127,7 +122,6 @@ Gaeilge
 Gagauz
 Alekano
 赣语（简体
-2
 贛語
 Dari
 Guadeloupean Creole French
@@ -135,7 +129,6 @@ Gàidhlig
 galego
 گیلکی
 Avañe'ẽ
-2
 कोंकणी
 Konknni
 𐌲𐌿𐍄𐌹𐍃𐌺
@@ -146,7 +139,6 @@ Wayúu
 Gurenɛ
 Gaelg
 هَوُسَ
-2
 Hausa
 Hak-kâ-fa
 Hawai`i
@@ -200,11 +192,8 @@ Gĩkũyũ
 Kırmancki
 Kwanyama
 қазақша
-2
 قازاقشا (تٴوتە)
-2
 қазақша
-2
 qazaqşa
 kalaallisut
 ភាសាខ្មែរ
@@ -229,7 +218,6 @@ Kurdî
 kernowek
 Кыргызча
 Latina
-2
 Ladino
 לאדינו
 Lëtzebuergesch
@@ -305,7 +293,6 @@ occitan
 Oromoo
 ଓଡ଼ିଆ
 Ирон
-2
 ਪੰਜਾਬੀ
 Pangasinan
 Kapampangan
@@ -343,7 +330,6 @@ Faeag Rotuma
 русский
 русиньскый
 Armãneashce
-2
 Влахесте
 Megleno-Romanian (Greek script)
 Vlăheşte
@@ -385,7 +371,6 @@ Soomaaliga
 shqip
 3
 српски
-2
 srpski
 Sranantongo
 SiSwati
@@ -419,7 +404,6 @@ Kokborok (Tripuri)
 Ṫuroyo
 Xitsonga
 Τσακωνικά
-2
 татарча
 tatarça
 Tati
@@ -430,7 +414,6 @@ Reo Mā`ohi
 тыва дыл
 ⵜⴰⵎⴰⵣⵉⵖⵜ
 удмурт
-2
 ئۇيغۇرچە
 uyghurche
 уйғурчә
