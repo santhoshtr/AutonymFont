@@ -3,7 +3,7 @@ FontName: Autonym
 FullName: Autonym
 FamilyName: Autonym
 Weight: Book
-Copyright: Copyright 2012 Santhosh Thottingal
+Copyright: Copyright 2013 Santhosh Thottingal <santhosh.thottingal@gmail.com>\n\nAutonym Font is free software; you can redistribute it and/or modify it\nunder the terms of the GNU General Public License as published by the\nFree Software Foundation; either version 3 of the License, or (at your option)\nany later version.\n\nThe fonts are distributed in the hope that they will be useful, but\nWITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY\nor FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License\nfor more details.\n\nYou should have received a copy of the GNU General Public License along\nwith this program; if not, write to the Free Software Foundation, Inc.,\n51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n\nAs a special exception, if you create a document which uses this font, and\nembed this font or unaltered portions of this font into the document, this\nfont does not by itself cause the resulting document to be covered by the\nGNU General Public License. This exception does not however invalidate any\nother reasons why the document might be covered by the GNU General Public\nLicense. If you modify this font, you may extend this exception to your\nversion of the font, but you are not obligated to do so.  If you do not\nwish to do so, delete this exception statement from your version
 Version: 0.1
 ItalicAngle: 0
 UnderlinePosition: -151
@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1203284335
-ModificationTime: 1375166147
+ModificationTime: 1375248557
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -60,7 +60,7 @@ DEI: 91125
 MacFeat: 0 0 0
 MacName: 0 0 24 "All Typographic Features"
 MacName: 0 1 24 "Fonctions typographiques"
-MacName: 0 2 33 "Alle typografischen M\232glichkeiten"
+MacName: 0 2 32 "Alle typografischen Mglichkeiten"
 MacName: 0 3 21 "Funzioni Tipografiche"
 MacName: 0 4 28 "Alle typografische kenmerken"
 MacSetting: 0
@@ -79,7 +79,7 @@ MacSetting: 2
 MacName: 0 0 16 "Common Ligatures"
 MacName: 0 1 18 "Ligatures Usuelles"
 MacName: 0 2 17 "Normale Ligaturen"
-MacName: 0 3 19 "Legature pi\235 Comuni"
+MacName: 0 3 18 "Legature pi Comuni"
 MacName: 0 4 28 "Gemeenschappelijke Ligaturen"
 MacSetting: 4
 MacName: 0 0 14 "Rare Ligatures"
@@ -94,13 +94,13 @@ MacName: 0 4 20 "Hoofd/kleine letters"
 MacSetting: 0
 MacName: 0 0 18 "Upper & Lower Case"
 MacName: 0 1 23 "Majuscules & Minuscules"
-MacName: 0 2 10 "Gro\247/Klein"
+MacName: 0 2 9 "Gro/Klein"
 MacName: 0 3 21 "Maiuscolo & minuscolo"
 MacName: 0 4 24 "Hoofd- en kleine letters"
 MacSetting: 3
 MacName: 0 0 10 "Small Caps"
 MacName: 0 1 18 "Petites Majuscules"
-MacName: 0 2 11 "Kapit\212lchen"
+MacName: 0 2 10 "Kapitlchen"
 MacName: 0 3 12 "Maiuscoletto"
 MacName: 0 4 19 "Kleine hoofdletters"
 MacFeat: 11 1 0
