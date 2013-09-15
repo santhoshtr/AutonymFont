@@ -20,9 +20,9 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1203284335
-ModificationTime: 1379274051
-PfmFamily: 17
-TTFWeight: 400
+ModificationTime: 1379281177
+PfmFamily: 33
+TTFWeight: 500
 TTFWidth: 5
 LineGap: 100
 VLineGap: 0
@@ -51,9 +51,9 @@ OS2SupYOff: 390
 OS2StrikeYSize: 49
 OS2StrikeYPos: 258
 OS2FamilyClass: 2053
-OS2Vendor: 'GNU '
+OS2Vendor: '    '
 OS2CodePages: 600001bf.dff70000
-OS2UnicodeRanges: e4839eff.4600fdff.000030a0.00000584
+OS2UnicodeRanges: 00008000.00000000.00000000.00000000
 Lookup: 4 0 0 "'pres' Pre Base Substitutions in Devanagari2 lookup 4"  {"'pres' Pre Base Substitutions in Devanagari2 lookup 4-1"  } ['pres' ('dev2' <'dflt' > ) ]
 Lookup: 4 0 0 "'nukt' Nukta Forms in Devanagari2 lookup 3"  {"'nukt' Nukta Forms in Devanagari2 lookup 3-1"  } ['nukt' ('dev2' <'dflt' > ) ]
 Lookup: 4 0 0 "'half' Half Forms in Devanagari2 lookup 2"  {"'half' Half Forms in Devanagari2 lookup 2-1"  } ['half' ('dev2' <'dflt' > ) ]
@@ -88,7 +88,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 27 10
+WinInfo: 135 27 10
 BeginPrivate: 0
 EndPrivate
 BeginChars: 465 395
@@ -96,7 +96,7 @@ BeginChars: 465 395
 StartChar: .notdef
 Encoding: 0 -1 0
 Width: 557
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
