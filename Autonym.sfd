@@ -3,7 +3,7 @@ FontName: Autonym
 FullName: Autonym
 FamilyName: Autonym
 Weight: Medium
-Copyright: Copyright 2013 Santhosh Thottingal <santhosh.thottingal@gmail.com>\n\nAutonym Font is free software; you can redistribute it and/or modify it\nunder the terms of the GNU General Public License as published by the\nFree Software Foundation; either version 3 of the License, or (at your option)\nany later version.\n\nThe fonts are distributed in the hope that they will be useful, but\nWITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY\nor FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License\nfor more details.\n\nYou should have received a copy of the GNU General Public License along\nwith this program; if not, write to the Free Software Foundation, Inc.,\n51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n\nAs a special exception, if you create a document which uses this font, and\nembed this font or unaltered portions of this font into the document, this\nfont does not by itself cause the resulting document to be covered by the\nGNU General Public License. This exception does not however invalidate any\nother reasons why the document might be covered by the GNU General Public\nLicense. If you modify this font, you may extend this exception to your\nversion of the font, but you are not obligated to do so.  If you do not\nwish to do so, delete this exception statement from your version
+Copyright: Copyright 2013 Santhosh Thottingal <santhosh.thottingal@gmail.com>\nwith Reserved Font Name Autonym Font.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is copied below, and is also available with a FAQ at:\nhttp://scripts.sil.org/OFL
 Version: 0.1
 ItalicAngle: 0
 UnderlinePosition: -151
@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1203284335
-ModificationTime: 1381139444
+ModificationTime: 1381143589
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -100,7 +100,7 @@ ShortTable: maxp 16
   3
   3
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 2.0 : Autonym : 31-7-2013" "" "" "" "" "GNU" "" "" "" "" "" "http://www.gnu.org/copyleft/gpl.html" 
+LangName: 1033 "" "" "Regular" "FontForge 2.0 : Autonym : 31-7-2013" "" "" "" "" "" "" "" "" "" "" "http://scripts.sil.org/OFL" 
 GaspTable: 3 9 2 22 1 65535 3 0
 Encoding: UnicodeBmp
 Compacted: 1
