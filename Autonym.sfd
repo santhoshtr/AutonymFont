@@ -14,7 +14,7 @@ sfntRevision: 0x019c3a1d
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-XUID: [1021 279 1022346998 11074359]
+XUID: [1021 279 1022346998 9044526]
 FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
@@ -68,6 +68,8 @@ Lookup: 4 0 0 "'abvs' Above Base Substitutions in Tibetan lookup 10"  {"'abvs' A
 Lookup: 4 0 0 "'abvs' Above Base Substitutions in Tibetan lookup 11"  {"'abvs' Above Base Substitutions in Tibetan lookup 11 subtable"  } ['abvs' ('tibt' <'dflt' > ) ]
 Lookup: 6 0 0 "'abvs' Above Base Substitutions in Tibetan lookup 12"  {"'abvs' Above Base Substitutions in Tibetan lookup 12 subtable"  } ['abvs' ('tibt' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 13"  {"Single Substitution lookup 13 subtable"  } []
+Lookup: 4 0 0 "LohitTelugu-'abvs' Above Base Substitutions in Telugu lookup 0"  {"LohitTelugu-'abvs' Above Base Substitutions in Telugu lookup 0 subtable"  } ['abvs' ('telu' <'dflt' > ) ]
+Lookup: 4 0 0 "LohitTelugu-'psts' Post Base Substitutions in Telugu lookup 1"  {"LohitTelugu-'psts' Post Base Substitutions in Telugu lookup 1 subtable"  } ['psts' ('telu' <'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 0"  {"'mark' Mark Positioning in Arabic lookup 0 subtable"  } ['mark' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 1"  {"'mark' Mark Positioning in Arabic lookup 1 subtable"  } ['mark' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 2"  {"'mkmk' Mark to Mark in Arabic lookup 2 subtable"  } ['mkmk' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
@@ -85,7 +87,7 @@ EndFPST
 ShortTable: maxp 16
   1
   0
-  606
+  611
   165
   17
   249
@@ -111,7 +113,7 @@ AntiAlias: 1
 FitToEm: 1
 WinInfo: 0 50 16
 AnchorClass2: "Anchor-0"  "'mark' Mark Positioning in Arabic lookup 0 subtable" "Anchor-1"  "'mark' Mark Positioning in Arabic lookup 0 subtable" "Anchor-2"  "'mark' Mark Positioning in Arabic lookup 1 subtable" "Anchor-3"  "'mark' Mark Positioning in Arabic lookup 1 subtable" "Anchor-4"  "'mkmk' Mark to Mark in Arabic lookup 2 subtable" "Anchor-5"  "'mkmk' Mark to Mark in Arabic lookup 3 subtable" 
-BeginChars: 65695 611
+BeginChars: 65695 617
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -185,8 +187,8 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 603 -1 N 1 0 0 1 0 0 3
-Refer: 601 -1 N 1 0 0 1 477 0 2
+Refer: 608 -1 N 1 0 0 1 0 0 3
+Refer: 606 -1 N 1 0 0 1 477 0 2
 EndChar
 
 StartChar: space
@@ -262,8 +264,8 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 342 3905 N 1 0 0 1 0 0 3
-Refer: 600 -1 N 1 0 0 1 558 0 2
+Refer: 347 3905 N 1 0 0 1 0 0 3
+Refer: 605 -1 N 1 0 0 1 558 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 10 subtable" uni0F41 uni0F7C
 EndChar
 
@@ -2229,8 +2231,8 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 346 3921 N 1 0 0 1 10 0 3
-Refer: 600 -1 N 1 0 0 1 466 0 2
+Refer: 351 3921 N 1 0 0 1 10 0 3
+Refer: 605 -1 N 1 0 0 1 466 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 10 subtable" uni0F51 uni0F7C
 PairPos2: "'kern' Horizontal Kerning in Tibetan lookup 4 subtable" uni0F0B dx=0 dy=0 dh=0 dv=0 dx=-84 dy=0 dh=-84 dv=0
 EndChar
@@ -2264,7 +2266,7 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 453 -1 N 1 0 0 1 540 0 2
+Refer: 458 -1 N 1 0 0 1 540 0 2
 Refer: 42 100 N 1 0 0 1 0 0 0
 EndChar
 
@@ -4782,8 +4784,8 @@ AnchorPoint: "Anchor-1" 140 -70 basechar 0
 AnchorPoint: "Anchor-0" 150 950 basechar 0
 LayerCount: 2
 Fore
-Refer: 517 -1 N 1 0 0 1 6 0 2
-Refer: 509 -1 N 1 0 0 1 60 122 2
+Refer: 522 -1 N 1 0 0 1 6 0 2
+Refer: 514 -1 N 1 0 0 1 60 122 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57410.fina
 EndChar
 
@@ -4797,7 +4799,7 @@ AnchorPoint: "Anchor-0" 225 480 basechar 0
 LayerCount: 2
 Fore
 Refer: 235 1609 N 1 0 0 1 0 0 3
-Refer: 578 -1 N 1 0 0 1 132 -268 2
+Refer: 583 -1 N 1 0 0 1 132 -268 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" afii57414.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" afii57414.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57414.fina
@@ -4838,8 +4840,8 @@ AnchorPoint: "Anchor-1" 490 -290 basechar 0
 AnchorPoint: "Anchor-0" 470 500 basechar 0
 LayerCount: 2
 Fore
-Refer: 491 -1 N 1 0 0 1 -40 0 2
-Refer: 499 -1 N 1 0 0 1 276 -657 2
+Refer: 496 -1 N 1 0 0 1 -40 0 2
+Refer: 504 -1 N 1 0 0 1 276 -657 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" afii57416.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" afii57416.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57416.fina
@@ -4855,7 +4857,7 @@ AnchorPoint: "Anchor-0" 244 810 basechar 0
 LayerCount: 2
 Fore
 Refer: 233 1607 N 1 0 0 1 18 0 2
-Refer: 500 -1 N 1 0 0 1 -6 172 2
+Refer: 505 -1 N 1 0 0 1 -6 172 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57417.fina
 EndChar
 
@@ -4868,8 +4870,8 @@ AnchorPoint: "Anchor-1" 430 -80 basechar 0
 AnchorPoint: "Anchor-0" 450 650 basechar 0
 LayerCount: 2
 Fore
-Refer: 491 -1 N 1 0 0 1 -40 0 2
-Refer: 500 -1 N 1 0 0 1 205 0 2
+Refer: 496 -1 N 1 0 0 1 -40 0 2
+Refer: 505 -1 N 1 0 0 1 205 0 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" afii57418.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" afii57418.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57418.fina
@@ -4884,8 +4886,8 @@ AnchorPoint: "Anchor-1" 200 -375 basechar 0
 AnchorPoint: "Anchor-0" 400 600 basechar 0
 LayerCount: 2
 Fore
-Refer: 461 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 190 -495 2
+Refer: 466 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 190 -495 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" afii57420.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" afii57420.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57420.fina
@@ -4900,8 +4902,8 @@ AnchorPoint: "Anchor-1" 200 -375 basechar 0
 AnchorPoint: "Anchor-0" 390 750 basechar 0
 LayerCount: 2
 Fore
-Refer: 461 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 156 140 2
+Refer: 466 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 156 140 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" afii57422.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" afii57422.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57422.fina
@@ -4951,7 +4953,7 @@ AnchorPoint: "Anchor-0" 210 800 basechar 0
 LayerCount: 2
 Fore
 Refer: 218 1583 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 43 156 2
+Refer: 504 -1 N 1 0 0 1 43 156 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57424.fina
 EndChar
 
@@ -4999,7 +5001,7 @@ AnchorPoint: "Anchor-0" 200 680 basechar 0
 LayerCount: 2
 Fore
 Refer: 220 1585 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 -6 85 2
+Refer: 504 -1 N 1 0 0 1 -6 85 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57426.fina
 EndChar
 
@@ -5076,7 +5078,7 @@ AnchorPoint: "Anchor-0" 840 730 basechar 0
 LayerCount: 2
 Fore
 Refer: 222 1587 N 1 0 0 1 0 0 3
-Refer: 501 -1 N 1 0 0 1 582 0 2
+Refer: 506 -1 N 1 0 0 1 582 0 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" afii57428.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" afii57428.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57428.fina
@@ -5194,7 +5196,7 @@ AnchorPoint: "Anchor-0" 240 920 basechar 0
 LayerCount: 2
 Fore
 Refer: 225 1593 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 14 303 2
+Refer: 504 -1 N 1 0 0 1 14 303 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" afii57434.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" afii57434.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57434.fina
@@ -5209,8 +5211,8 @@ AnchorPoint: "Anchor-1" 470 -80 basechar 0
 AnchorPoint: "Anchor-0" 710 890 basechar 0
 LayerCount: 2
 Fore
-Refer: 495 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 482 256 2
+Refer: 500 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 482 256 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" afii57441.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" afii57441.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57441.fina
@@ -5225,8 +5227,8 @@ AnchorPoint: "Anchor-1" 370 -420 basechar 0
 AnchorPoint: "Anchor-0" 430 730 basechar 0
 LayerCount: 2
 Fore
-Refer: 497 -1 N 1 0 0 1 0 0 3
-Refer: 500 -1 N 1 0 0 1 182 82 2
+Refer: 502 -1 N 1 0 0 1 0 0 3
+Refer: 505 -1 N 1 0 0 1 182 82 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" afii57442.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" afii57442.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57442.fina
@@ -5382,8 +5384,8 @@ AnchorPoint: "Anchor-1" 320 -400 basechar 0
 AnchorPoint: "Anchor-0" 300 400 basechar 0
 LayerCount: 2
 Fore
-Refer: 507 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 84 -228 2
+Refer: 512 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 84 -228 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" afii57446.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" afii57446.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57446.fina
@@ -5533,7 +5535,7 @@ AnchorPoint: "Anchor-0" 250 280 basechar 0
 LayerCount: 2
 Fore
 Refer: 235 1609 N 1 0 0 1 0 0 3
-Refer: 500 -1 N 1 0 0 1 184 -978 2
+Refer: 505 -1 N 1 0 0 1 184 -978 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" afii57450.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" afii57450.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57450.fina
@@ -5632,8 +5634,8 @@ AnchorPoint: "Anchor-1" 140 -70 basechar 0
 AnchorPoint: "Anchor-0" 130 1030 basechar 0
 LayerCount: 2
 Fore
-Refer: 517 -1 N 1 0 0 1 8 0 2
-Refer: 579 -1 N 1 0 0 1 72 176 2
+Refer: 522 -1 N 1 0 0 1 8 0 2
+Refer: 584 -1 N 1 0 0 1 72 176 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uni0672.fina
 EndChar
 
@@ -5646,8 +5648,8 @@ AnchorPoint: "Anchor-1" 530 -390 basechar 0
 AnchorPoint: "Anchor-0" 470 500 basechar 0
 LayerCount: 2
 Fore
-Refer: 491 -1 N 1 0 0 1 -40 0 2
-Refer: 502 -1 N 1 0 0 1 257 0 2
+Refer: 496 -1 N 1 0 0 1 -40 0 2
+Refer: 507 -1 N 1 0 0 1 257 0 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" afii57506.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" afii57506.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57506.fina
@@ -5662,8 +5664,8 @@ AnchorPoint: "Anchor-1" 200 -375 basechar 0
 AnchorPoint: "Anchor-0" 400 600 basechar 0
 LayerCount: 2
 Fore
-Refer: 461 -1 N 1 0 0 1 0 0 3
-Refer: 502 -1 N 1 0 0 1 174 213 2
+Refer: 466 -1 N 1 0 0 1 0 0 3
+Refer: 507 -1 N 1 0 0 1 174 213 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" afii57507.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" afii57507.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57507.fina
@@ -5679,7 +5681,7 @@ AnchorPoint: "Anchor-0" 240 800 basechar 0
 LayerCount: 2
 Fore
 Refer: 218 1583 N 1 0 0 1 0 0 3
-Refer: 500 -1 N 1 0 0 1 5 150 2
+Refer: 505 -1 N 1 0 0 1 5 150 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uni068C.fina
 EndChar
 
@@ -5693,8 +5695,8 @@ AnchorPoint: "Anchor-0" 780 600 basechar 0
 LayerCount: 2
 Fore
 Refer: 222 1587 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 580 3 2
-Refer: 516 -1 N 1 0 0 1 674 0 2
+Refer: 504 -1 N 1 0 0 1 580 3 2
+Refer: 521 -1 N 1 0 0 1 674 0 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" uni069A.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" uni069A.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" uni069A.fina
@@ -5755,7 +5757,7 @@ AnchorPoint: "Anchor-0" 470 820 basechar 0
 LayerCount: 2
 Fore
 Refer: 245 1705 N 1 0 0 1 0 0 3
-Refer: 581 -1 N 1 0 0 1 338 0 2
+Refer: 586 -1 N 1 0 0 1 338 0 2
 Substitution2: "'medi' Medial Forms in Arabic lookup 6 subtable" afii57509.medi
 Substitution2: "'init' Initial Forms in Arabic lookup 5 subtable" afii57509.init
 Substitution2: "'fina' Terminal Forms in Arabic lookup 4 subtable" afii57509.fina
@@ -8597,8 +8599,214 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: uni0C17
+Encoding: 3095 3095 332
+Width: 519
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+37 0 m 1,0,1
+ 37 163 37 163 75.5 284.5 c 128,-1,2
+ 114 406 114 406 185 461 c 1,3,4
+ 151 486 151 486 132.5 528 c 128,-1,5
+ 114 570 114 570 114 622 c 1,6,-1
+ 166 622 l 1,7,8
+ 166 567 166 567 193.5 529 c 128,-1,9
+ 221 491 221 491 260 491 c 0,10,11
+ 274 491 274 491 290.5 500.5 c 128,-1,12
+ 307 510 307 510 324 526 c 2,13,-1
+ 488 684 l 1,14,-1
+ 522 650 l 1,15,-1
+ 334 462 l 1,16,17
+ 405 408 405 408 443.5 286 c 128,-1,18
+ 482 164 482 164 482 0 c 1,19,-1
+ 418 0 l 1,20,21
+ 418 174 418 174 372 296.5 c 128,-1,22
+ 326 419 326 419 260 419 c 256,23,24
+ 194 419 194 419 148 296.5 c 128,-1,25
+ 102 174 102 174 102 0 c 1,26,-1
+ 37 0 l 1,27,-1
+ 37 0 l 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: uni0C24
+Encoding: 3108 3108 333
+Width: 654
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+98 301 m 1,0,1
+ 98 274 98 274 117.5 254.5 c 128,-1,2
+ 137 235 137 235 165 235 c 0,3,4
+ 192 235 192 235 211 254.5 c 128,-1,5
+ 230 274 230 274 230 301 c 256,6,7
+ 230 328 230 328 211 347 c 128,-1,8
+ 192 366 192 366 165 366 c 0,9,10
+ 137 366 137 366 117.5 347 c 128,-1,11
+ 98 328 98 328 98 301 c 1,12,-1
+ 98 301 l 1,0,1
+426 301 m 1,13,14
+ 426 274 426 274 445 254.5 c 128,-1,15
+ 464 235 464 235 491 235 c 256,16,17
+ 518 235 518 235 537 254.5 c 128,-1,18
+ 556 274 556 274 556 301 c 256,19,20
+ 556 328 556 328 537 347 c 128,-1,21
+ 518 366 518 366 491 366 c 256,22,23
+ 464 366 464 366 445 347 c 128,-1,24
+ 426 328 426 328 426 301 c 1,25,-1
+ 426 301 l 1,13,14
+179 582 m 1,26,-1
+ 231 582 l 1,27,28
+ 231 542 231 542 258.5 514 c 128,-1,29
+ 286 486 286 486 325 486 c 0,30,31
+ 338 486 338 486 355 495 c 128,-1,32
+ 372 504 372 504 389 521 c 2,33,-1
+ 554 678 l 1,34,-1
+ 587 645 l 1,35,-1
+ 420 478 l 1,36,37
+ 509 456 509 456 565.5 399 c 128,-1,38
+ 622 342 622 342 622 274 c 0,39,40
+ 622 150 622 150 540 75 c 128,-1,41
+ 458 0 458 0 321 0 c 0,42,43
+ 190 0 190 0 111.5 71 c 128,-1,44
+ 33 142 33 142 33 261 c 0,45,46
+ 33 326 33 326 71.5 372.5 c 128,-1,47
+ 110 419 110 419 165 419 c 0,48,49
+ 213 419 213 419 247.5 384.5 c 128,-1,50
+ 282 350 282 350 282 301 c 256,51,52
+ 282 252 282 252 247.5 217.5 c 128,-1,53
+ 213 183 213 183 165 183 c 0,54,55
+ 148 183 148 183 135 186.5 c 128,-1,56
+ 122 190 122 190 114 197 c 1,57,-1
+ 107 196 l 1,58,59
+ 107 137 107 137 165.5 101.5 c 128,-1,60
+ 224 66 224 66 321 66 c 0,61,62
+ 422 66 422 66 482 101.5 c 128,-1,63
+ 542 137 542 137 542 196 c 1,64,-1
+ 537 197 l 1,65,66
+ 531 190 531 190 519 186.5 c 128,-1,67
+ 507 183 507 183 491 183 c 0,68,69
+ 442 183 442 183 407.5 217.5 c 128,-1,70
+ 373 252 373 252 373 301 c 0,71,72
+ 373 340 373 340 401 369 c 128,-1,73
+ 429 398 429 398 470 402 c 1,74,-1
+ 470 406 l 1,75,76
+ 444 421 444 421 407.5 428 c 128,-1,77
+ 371 435 371 435 328 435 c 0,78,79
+ 266 435 266 435 222.5 478.5 c 128,-1,80
+ 179 522 179 522 179 582 c 1,81,-1
+ 179 582 l 1,26,-1
+EndSplineSet
+EndChar
+
+StartChar: uni0C32
+Encoding: 3122 3122 334
+Width: 594
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+154 366 m 1,0,1
+ 154 338 154 338 173 319.5 c 128,-1,2
+ 192 301 192 301 219 301 c 256,3,4
+ 246 301 246 301 265 319.5 c 128,-1,5
+ 284 338 284 338 284 366 c 0,6,7
+ 284 393 284 393 265 412 c 128,-1,8
+ 246 431 246 431 219 431 c 256,9,10
+ 192 431 192 431 173 412 c 128,-1,11
+ 154 393 154 393 154 366 c 1,12,-1
+ 154 366 l 1,0,1
+298 66 m 1,13,14
+ 378 66 378 66 436 123 c 128,-1,15
+ 494 180 494 180 494 261 c 0,16,17
+ 494 318 494 318 464 363 c 128,-1,18
+ 434 408 434 408 386 426 c 1,19,-1
+ 408 490 l 1,20,21
+ 476 465 476 465 517.5 402 c 128,-1,22
+ 559 339 559 339 559 261 c 0,23,24
+ 559 153 559 153 482.5 76.5 c 128,-1,25
+ 406 0 406 0 298 0 c 0,26,27
+ 189 0 189 0 112 76.5 c 128,-1,28
+ 35 153 35 153 35 261 c 0,29,30
+ 35 354 35 354 89 419 c 128,-1,31
+ 143 484 143 484 219 484 c 0,32,33
+ 268 484 268 484 303 449 c 128,-1,34
+ 338 414 338 414 338 366 c 256,35,36
+ 338 318 338 318 303 283.5 c 128,-1,37
+ 268 249 268 249 219 249 c 0,38,39
+ 179 249 179 249 149 272.5 c 128,-1,40
+ 119 296 119 296 113 332 c 1,41,-1
+ 109 332 l 1,42,43
+ 105 322 105 322 103 304 c 128,-1,44
+ 101 286 101 286 101 261 c 0,45,46
+ 101 180 101 180 158.5 123 c 128,-1,47
+ 216 66 216 66 298 66 c 1,48,-1
+ 298 66 l 1,13,14
+EndSplineSet
+EndChar
+
+StartChar: uni0C41
+Encoding: 3137 3137 335
+Width: 368
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-70 142 m 1,0,-1
+ -56 224 l 1,1,2
+ -38 154 -38 154 14 110 c 128,-1,3
+ 66 66 66 66 130 66 c 0,4,5
+ 184 66 184 66 222 116 c 128,-1,6
+ 260 166 260 166 260 237 c 0,7,8
+ 260 314 260 314 213 368.5 c 128,-1,9
+ 166 423 166 423 99 423 c 1,10,-1
+ 114 488 l 1,11,12
+ 205 488 205 488 268.5 414 c 128,-1,13
+ 332 340 332 340 332 235 c 0,14,15
+ 332 138 332 138 271 69 c 128,-1,16
+ 210 0 210 0 122 0 c 0,17,18
+ 54 0 54 0 0.5 39.5 c 128,-1,19
+ -53 79 -53 79 -70 142 c 1,20,-1
+ -70 142 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni0C46
+Encoding: 3142 3142 336
+Width: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-334 659 m 1,0,-1
+ 49 659 l 2,1,2
+ 94 659 94 659 126.5 627 c 128,-1,3
+ 159 595 159 595 159 550 c 0,4,5
+ 159 503 159 503 125.5 470 c 128,-1,6
+ 92 437 92 437 45 437 c 2,7,-1
+ -78 437 l 1,8,-1
+ -78 503 l 1,9,-1
+ 54 503 l 2,10,11
+ 70 503 70 503 82 516.5 c 128,-1,12
+ 94 530 94 530 94 550 c 0,13,14
+ 94 568 94 568 82 581 c 128,-1,15
+ 70 594 70 594 53 594 c 2,16,-1
+ -334 594 l 1,17,-1
+ -334 659 l 1,18,-1
+ -334 659 l 1,0,-1
+EndSplineSet
+EndChar
+
 StartChar: anusvara_mal
-Encoding: 3330 3330 332
+Encoding: 3330 3330 337
 Width: 419
 GlyphClass: 2
 Flags: W
@@ -8627,7 +8835,7 @@ EndSplineSet
 EndChar
 
 StartChar: ma_mal
-Encoding: 3374 3374 333
+Encoding: 3374 3374 338
 Width: 628
 GlyphClass: 2
 Flags: W
@@ -8657,7 +8865,7 @@ EndSplineSet
 EndChar
 
 StartChar: ya_mal
-Encoding: 3375 3375 334
+Encoding: 3375 3375 339
 Width: 1022
 GlyphClass: 2
 Flags: W
@@ -8704,7 +8912,7 @@ EndSplineSet
 EndChar
 
 StartChar: la_mal
-Encoding: 3378 3378 335
+Encoding: 3378 3378 340
 Width: 855
 GlyphClass: 2
 Flags: W
@@ -8737,7 +8945,7 @@ EndSplineSet
 EndChar
 
 StartChar: lla_mal
-Encoding: 3379 3379 336
+Encoding: 3379 3379 341
 Width: 714
 GlyphClass: 2
 Flags: W
@@ -8798,7 +9006,7 @@ EndSplineSet
 EndChar
 
 StartChar: aa_mal
-Encoding: 3390 3390 337
+Encoding: 3390 3390 342
 Width: 506
 GlyphClass: 2
 Flags: W
@@ -8826,7 +9034,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0E17
-Encoding: 3607 3607 338
+Encoding: 3607 3607 343
 Width: 708
 GlyphClass: 2
 Flags: W
@@ -8873,7 +9081,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0E22
-Encoding: 3618 3618 339
+Encoding: 3618 3618 344
 Width: 650
 GlyphClass: 2
 Flags: W
@@ -8934,7 +9142,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0E44
-Encoding: 3652 3652 340
+Encoding: 3652 3652 345
 Width: 498
 GlyphClass: 2
 Flags: W
@@ -8983,7 +9191,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0F0B
-Encoding: 3851 3851 341
+Encoding: 3851 3851 346
 Width: 150
 GlyphClass: 2
 Flags: W
@@ -9004,7 +9212,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0F41
-Encoding: 3905 3905 342
+Encoding: 3905 3905 347
 Width: 564
 GlyphClass: 2
 Flags: W
@@ -9078,7 +9286,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0F42
-Encoding: 3906 3906 343
+Encoding: 3906 3906 348
 Width: 582
 GlyphClass: 2
 Flags: W
@@ -9158,7 +9366,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0F44
-Encoding: 3908 3908 344
+Encoding: 3908 3908 349
 Width: 432
 GlyphClass: 2
 Flags: W
@@ -9215,7 +9423,7 @@ PairPos2: "'kern' Horizontal Kerning in Tibetan lookup 4 subtable" uni0F0B dx=0 
 EndChar
 
 StartChar: uni0F47
-Encoding: 3911 3911 345
+Encoding: 3911 3911 350
 Width: 420
 GlyphClass: 2
 Flags: W
@@ -9303,7 +9511,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0F51
-Encoding: 3921 3921 346
+Encoding: 3921 3921 351
 Width: 456
 GlyphClass: 2
 Flags: W
@@ -9366,7 +9574,7 @@ PairPos2: "'kern' Horizontal Kerning in Tibetan lookup 4 subtable" uni0F0B dx=0 
 EndChar
 
 StartChar: uni0F56
-Encoding: 3926 3926 347
+Encoding: 3926 3926 352
 Width: 486
 GlyphClass: 2
 Flags: W
@@ -9430,7 +9638,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0F61
-Encoding: 3937 3937 348
+Encoding: 3937 3937 353
 Width: 588
 GlyphClass: 2
 Flags: W
@@ -9532,7 +9740,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0F72
-Encoding: 3954 3954 349
+Encoding: 3954 3954 354
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -9582,7 +9790,7 @@ Substitution2: "Single Substitution lookup 13 subtable" glyph35
 EndChar
 
 StartChar: uni0F7C
-Encoding: 3964 3964 350
+Encoding: 3964 3964 355
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -9645,7 +9853,7 @@ Substitution2: "Single Substitution lookup 13 subtable" glyph36
 EndChar
 
 StartChar: uni10D0
-Encoding: 4304 4304 351
+Encoding: 4304 4304 356
 Width: 436
 GlyphClass: 2
 Flags: W
@@ -9682,7 +9890,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni10D2
-Encoding: 4306 4306 352
+Encoding: 4306 4306 357
 Width: 528
 GlyphClass: 2
 Flags: W
@@ -9736,7 +9944,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni10D7
-Encoding: 4311 4311 353
+Encoding: 4311 4311 358
 Width: 734
 GlyphClass: 2
 Flags: W
@@ -9775,7 +9983,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni10D8
-Encoding: 4312 4312 354
+Encoding: 4312 4312 359
 Width: 449
 GlyphClass: 2
 Flags: W
@@ -9801,7 +10009,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni10DA
-Encoding: 4314 4314 355
+Encoding: 4314 4314 360
 Width: 843
 GlyphClass: 2
 Flags: W
@@ -9857,7 +10065,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni10DB
-Encoding: 4315 4315 356
+Encoding: 4315 4315 361
 Width: 449
 GlyphClass: 2
 Flags: W
@@ -9895,7 +10103,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni10E0
-Encoding: 4320 4320 357
+Encoding: 4320 4320 362
 Width: 682
 GlyphClass: 2
 Flags: W
@@ -9943,7 +10151,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni10E3
-Encoding: 4323 4323 358
+Encoding: 4323 4323 363
 Width: 623
 GlyphClass: 2
 Flags: W
@@ -9998,7 +10206,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni10E5
-Encoding: 4325 4325 359
+Encoding: 4325 4325 364
 Width: 447
 GlyphClass: 2
 Flags: W
@@ -10033,7 +10241,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni121B
-Encoding: 4635 4635 360
+Encoding: 4635 4635 365
 Width: 819
 GlyphClass: 2
 Flags: W
@@ -10145,7 +10353,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni122D
-Encoding: 4653 4653 361
+Encoding: 4653 4653 366
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -10217,7 +10425,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1275
-Encoding: 4725 4725 362
+Encoding: 4725 4725 367
 Width: 723
 GlyphClass: 2
 Flags: W
@@ -10315,7 +10523,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni129B
-Encoding: 4763 4763 363
+Encoding: 4763 4763 368
 Width: 663
 GlyphClass: 2
 Flags: W
@@ -10445,7 +10653,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni12A0
-Encoding: 4768 4768 364
+Encoding: 4768 4768 369
 Width: 607
 GlyphClass: 2
 Flags: W
@@ -10513,7 +10721,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni130D
-Encoding: 4877 4877 365
+Encoding: 4877 4877 370
 Width: 616
 GlyphClass: 2
 Flags: W
@@ -10596,7 +10804,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni13A9
-Encoding: 5033 5033 366
+Encoding: 5033 5033 371
 Width: 689
 GlyphClass: 2
 Flags: W
@@ -10626,7 +10834,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni13B3
-Encoding: 5043 5043 367
+Encoding: 5043 5043 372
 Width: 963
 GlyphClass: 2
 Flags: W
@@ -10651,7 +10859,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni13E3
-Encoding: 5091 5091 368
+Encoding: 5091 5091 373
 Width: 689
 GlyphClass: 2
 Flags: W
@@ -10693,7 +10901,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1403
-Encoding: 5123 5123 369
+Encoding: 5123 5123 374
 Width: 941
 GlyphClass: 2
 Flags: W
@@ -10712,7 +10920,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni144E
-Encoding: 5198 5198 370
+Encoding: 5198 5198 375
 Width: 742
 GlyphClass: 2
 Flags: W
@@ -10738,7 +10946,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1450
-Encoding: 5200 5200 371
+Encoding: 5200 5200 376
 Width: 744
 GlyphClass: 2
 Flags: W
@@ -10764,7 +10972,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1466
-Encoding: 5222 5222 372
+Encoding: 5222 5222 377
 Width: 477
 GlyphClass: 2
 Flags: W
@@ -10790,7 +10998,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1483
-Encoding: 5251 5251 373
+Encoding: 5251 5251 378
 Width: 361
 GlyphClass: 2
 Flags: W
@@ -10819,7 +11027,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni14C4
-Encoding: 5316 5316 374
+Encoding: 5316 5316 379
 Width: 712
 GlyphClass: 2
 Flags: W
@@ -10849,7 +11057,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1A01
-Encoding: 6657 6657 375
+Encoding: 6657 6657 380
 Width: 958
 GlyphClass: 2
 Flags: W
@@ -10896,7 +11104,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1A05
-Encoding: 6661 6661 376
+Encoding: 6661 6661 381
 Width: 727
 GlyphClass: 2
 Flags: W
@@ -10939,7 +11147,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1A14
-Encoding: 6676 6676 377
+Encoding: 6676 6676 382
 Width: 709
 GlyphClass: 2
 Flags: W
@@ -10969,7 +11177,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1A15
-Encoding: 6677 6677 378
+Encoding: 6677 6677 383
 Width: 1192
 GlyphClass: 2
 Flags: W
@@ -11028,7 +11236,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1A17
-Encoding: 6679 6679 379
+Encoding: 6679 6679 384
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -11044,7 +11252,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1A18
-Encoding: 6680 6680 380
+Encoding: 6680 6680 385
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -11060,7 +11268,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1E25
-Encoding: 7717 7717 381
+Encoding: 7717 7717 386
 Width: 536
 GlyphClass: 2
 Flags: W
@@ -11071,7 +11279,7 @@ Refer: 46 104 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: Tdotaccent
-Encoding: 7786 7786 382
+Encoding: 7786 7786 387
 Width: 632
 GlyphClass: 2
 Flags: W
@@ -11082,7 +11290,7 @@ Refer: 30 84 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: udieresisbelow
-Encoding: 7795 7795 383
+Encoding: 7795 7795 388
 Width: 537
 GlyphClass: 2
 Flags: W
@@ -11093,7 +11301,7 @@ Refer: 59 117 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: edotbelow
-Encoding: 7865 7865 384
+Encoding: 7865 7865 389
 Width: 533
 GlyphClass: 2
 Flags: W
@@ -11104,7 +11312,7 @@ Refer: 43 101 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: etilde
-Encoding: 7869 7869 385
+Encoding: 7869 7869 390
 Width: 533
 GlyphClass: 2
 Flags: W
@@ -11115,7 +11323,7 @@ Refer: 43 101 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: ecircumflexacute
-Encoding: 7871 7871 386
+Encoding: 7871 7871 391
 Width: 533
 GlyphClass: 2
 Flags: W
@@ -11126,51 +11334,51 @@ Refer: 80 234 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: ecircumflexdotbelow
-Encoding: 7879 7879 387
+Encoding: 7879 7879 392
 Width: 533
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 Refer: 118 710 N 1 0 0 1 116 -10 0
-Refer: 384 7865 N 1 0 0 1 0 0 0
+Refer: 389 7865 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: uni1F08
-Encoding: 7944 7944 388
+Encoding: 7944 7944 393
 Width: 666
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 391 8127 N 1 0 0 1 -39 1 0
+Refer: 396 8127 N 1 0 0 1 -39 1 0
 Refer: 131 913 N 1 0 0 1 0 0 1
 EndChar
 
 StartChar: uni1F11
-Encoding: 7953 7953 389
+Encoding: 7953 7953 394
 Width: 497
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 393 8190 N 1 0 0 1 96 -1 0
+Refer: 398 8190 N 1 0 0 1 96 -1 0
 Refer: 137 949 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: uni1F74
-Encoding: 8052 8052 390
+Encoding: 8052 8052 395
 Width: 549
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 392 8175 N 1 0 0 1 162 7 0
+Refer: 397 8175 N 1 0 0 1 162 7 0
 Refer: 138 951 N 1 0 0 1 0 0 0
 EndChar
 
 StartChar: psili
-Encoding: 8127 8127 391
+Encoding: 8127 8127 396
 Width: 333
 GlyphClass: 2
 Flags: W
@@ -11180,7 +11388,7 @@ Refer: 126 787 N 1 0 0 1 322 0 0
 EndChar
 
 StartChar: varia
-Encoding: 8175 8175 392
+Encoding: 8175 8175 397
 Width: 333
 GlyphClass: 2
 Flags: W
@@ -11190,7 +11398,7 @@ Refer: 38 96 N 1 0 0 1 10 0 0
 EndChar
 
 StartChar: dasia
-Encoding: 8190 8190 393
+Encoding: 8190 8190 398
 Width: 333
 GlyphClass: 2
 Flags: W
@@ -11200,7 +11408,7 @@ Refer: 127 788 N 1 0 0 1 330 0 0
 EndChar
 
 StartChar: uni200E
-Encoding: 8206 8206 394
+Encoding: 8206 8206 399
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -11208,7 +11416,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uni200F
-Encoding: 8207 8207 395
+Encoding: 8207 8207 400
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -11216,7 +11424,7 @@ LayerCount: 2
 EndChar
 
 StartChar: quoteright
-Encoding: 8217 8217 396
+Encoding: 8217 8217 401
 Width: 250
 GlyphClass: 2
 Flags: W
@@ -11235,7 +11443,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2D30
-Encoding: 11568 11568 397
+Encoding: 11568 11568 402
 Width: 352
 GlyphClass: 2
 Flags: W
@@ -11264,7 +11472,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2D43
-Encoding: 11587 11587 398
+Encoding: 11587 11587 403
 Width: 696
 GlyphClass: 2
 Flags: W
@@ -11284,7 +11492,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2D49
-Encoding: 11593 11593 399
+Encoding: 11593 11593 404
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -11309,7 +11517,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2D4D
-Encoding: 11597 11597 400
+Encoding: 11597 11597 405
 Width: 524
 GlyphClass: 2
 Flags: W
@@ -11333,7 +11541,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2D4E
-Encoding: 11598 11598 401
+Encoding: 11598 11598 406
 Width: 720
 GlyphClass: 2
 Flags: W
@@ -11353,7 +11561,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2D56
-Encoding: 11606 11606 402
+Encoding: 11606 11606 407
 Width: 720
 GlyphClass: 2
 Flags: W
@@ -11377,7 +11585,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2D5B
-Encoding: 11611 11611 403
+Encoding: 11611 11611 408
 Width: 770
 GlyphClass: 2
 Flags: W
@@ -11435,7 +11643,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2D5C
-Encoding: 11612 11612 404
+Encoding: 11612 11612 409
 Width: 424
 GlyphClass: 2
 Flags: W
@@ -11459,7 +11667,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2D63
-Encoding: 11619 11619 405
+Encoding: 11619 11619 410
 Width: 828
 GlyphClass: 2
 Flags: W
@@ -11499,7 +11707,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni4E2D
-Encoding: 20013 20013 406
+Encoding: 20013 20013 411
 Width: 916
 GlyphClass: 2
 Flags: W
@@ -11537,7 +11745,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni4E9A
-Encoding: 20122 20122 407
+Encoding: 20122 20122 412
 Width: 968
 GlyphClass: 2
 Flags: W
@@ -11576,7 +11784,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni4F53
-Encoding: 20307 20307 408
+Encoding: 20307 20307 413
 Width: 980
 GlyphClass: 2
 Flags: W
@@ -11623,7 +11831,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni52A0
-Encoding: 21152 21152 409
+Encoding: 21152 21152 414
 Width: 936
 GlyphClass: 2
 Flags: W
@@ -11668,7 +11876,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni53F0
-Encoding: 21488 21488 410
+Encoding: 21488 21488 415
 Width: 940
 GlyphClass: 2
 Flags: W
@@ -11705,7 +11913,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni5434
-Encoding: 21556 21556 411
+Encoding: 21556 21556 416
 Width: 976
 GlyphClass: 2
 Flags: W
@@ -11746,7 +11954,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni56FD
-Encoding: 22269 22269 412
+Encoding: 22269 22269 417
 Width: 932
 GlyphClass: 2
 Flags: W
@@ -11797,7 +12005,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni5761
-Encoding: 22369 22369 413
+Encoding: 22369 22369 418
 Width: 976
 GlyphClass: 2
 Flags: W
@@ -11862,7 +12070,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni5927
-Encoding: 22823 22823 414
+Encoding: 22823 22823 419
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -11889,7 +12097,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni6587
-Encoding: 25991 25991 415
+Encoding: 25991 25991 420
 Width: 964
 GlyphClass: 2
 Flags: W
@@ -11923,7 +12131,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni65B0
-Encoding: 26032 26032 416
+Encoding: 26032 26032 421
 Width: 972
 GlyphClass: 2
 Flags: W
@@ -12001,7 +12209,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni65E5
-Encoding: 26085 26085 417
+Encoding: 26085 26085 422
 Width: 844
 GlyphClass: 2
 Flags: W
@@ -12031,7 +12239,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni672C
-Encoding: 26412 26412 418
+Encoding: 26412 26412 423
 Width: 976
 GlyphClass: 2
 Flags: W
@@ -12070,7 +12278,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni6765
-Encoding: 26469 26469 419
+Encoding: 26469 26469 424
 Width: 980
 GlyphClass: 2
 Flags: W
@@ -12118,7 +12326,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni6E2F
-Encoding: 28207 28207 420
+Encoding: 28207 28207 425
 Width: 972
 GlyphClass: 2
 Flags: W
@@ -12201,7 +12409,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni6E58
-Encoding: 28248 28248 421
+Encoding: 28248 28248 426
 Width: 940
 GlyphClass: 2
 Flags: W
@@ -12271,7 +12479,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni6FB3
-Encoding: 28595 28595 422
+Encoding: 28595 28595 427
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -12357,7 +12565,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni7063
-Encoding: 28771 28771 423
+Encoding: 28771 28771 428
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -12499,7 +12707,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni7B80
-Encoding: 31616 31616 424
+Encoding: 31616 31616 429
 Width: 968
 GlyphClass: 2
 Flags: W
@@ -12573,7 +12781,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni7CB5
-Encoding: 31925 31925 425
+Encoding: 31925 31925 430
 Width: 968
 GlyphClass: 2
 Flags: W
@@ -12646,7 +12854,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni7E41
-Encoding: 32321 32321 426
+Encoding: 32321 32321 431
 Width: 972
 GlyphClass: 2
 Flags: W
@@ -12765,7 +12973,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni897F
-Encoding: 35199 35199 427
+Encoding: 35199 35199 432
 Width: 964
 GlyphClass: 2
 Flags: W
@@ -12820,7 +13028,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni8A00
-Encoding: 35328 35328 428
+Encoding: 35328 35328 433
 Width: 976
 GlyphClass: 2
 Flags: W
@@ -12864,7 +13072,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni8A9E
-Encoding: 35486 35486 429
+Encoding: 35486 35486 434
 Width: 972
 GlyphClass: 2
 Flags: W
@@ -12946,7 +13154,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni8BED
-Encoding: 35821 35821 430
+Encoding: 35821 35821 435
 Width: 972
 GlyphClass: 2
 Flags: W
@@ -13010,7 +13218,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni8D1B
-Encoding: 36123 36123 431
+Encoding: 36123 36123 436
 Width: 980
 GlyphClass: 2
 Flags: W
@@ -13133,7 +13341,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni8D63
-Encoding: 36195 36195 432
+Encoding: 36195 36195 437
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -13246,7 +13454,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni9580
-Encoding: 38272 38272 433
+Encoding: 38272 38272 438
 Width: 944
 GlyphClass: 2
 Flags: W
@@ -13296,7 +13504,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni9646
-Encoding: 38470 38470 434
+Encoding: 38470 38470 439
 Width: 972
 GlyphClass: 2
 Flags: W
@@ -13356,7 +13564,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni9999
-Encoding: 39321 39321 435
+Encoding: 39321 39321 440
 Width: 972
 GlyphClass: 2
 Flags: W
@@ -13408,7 +13616,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni9A6C
-Encoding: 39532 39532 436
+Encoding: 39532 39532 441
 Width: 936
 GlyphClass: 2
 Flags: W
@@ -13443,7 +13651,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni9AD4
-Encoding: 39636 39636 437
+Encoding: 39636 39636 442
 Width: 968
 GlyphClass: 2
 Flags: W
@@ -13574,7 +13782,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8A1
-Encoding: 43169 43169 438
+Encoding: 43169 43169 443
 Width: 619
 GlyphClass: 2
 Flags: W
@@ -13630,7 +13838,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8AC
-Encoding: 43180 43180 439
+Encoding: 43180 43180 444
 Width: 793
 GlyphClass: 2
 Flags: W
@@ -13690,7 +13898,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8AF
-Encoding: 43183 43183 440
+Encoding: 43183 43183 445
 Width: 684
 GlyphClass: 2
 Flags: W
@@ -13771,7 +13979,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8B1
-Encoding: 43185 43185 441
+Encoding: 43185 43185 446
 Width: 762
 GlyphClass: 2
 Flags: W
@@ -13843,7 +14051,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8B5
-Encoding: 43189 43189 442
+Encoding: 43189 43189 447
 Width: 435
 GlyphClass: 2
 Flags: W
@@ -13902,7 +14110,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8C3
-Encoding: 43203 43203 443
+Encoding: 43203 43203 448
 Width: 785
 GlyphClass: 2
 Flags: W
@@ -14050,7 +14258,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8C4
-Encoding: 43204 43204 444
+Encoding: 43204 43204 449
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -14066,7 +14274,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniAD6D
-Encoding: 44397 44397 445
+Encoding: 44397 44397 450
 Width: 940
 GlyphClass: 2
 Flags: W
@@ -14100,7 +14308,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniC120
-Encoding: 49440 49440 446
+Encoding: 49440 49440 451
 Width: 852
 GlyphClass: 2
 Flags: W
@@ -14137,7 +14345,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniC5B4
-Encoding: 50612 50612 447
+Encoding: 50612 50612 452
 Width: 832
 GlyphClass: 2
 Flags: W
@@ -14175,7 +14383,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniC870
-Encoding: 51312 51312 448
+Encoding: 51312 51312 453
 Width: 936
 GlyphClass: 2
 Flags: W
@@ -14208,7 +14416,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniD55C
-Encoding: 54620 54620 449
+Encoding: 54620 54620 454
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -14263,7 +14471,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57506.init
-Encoding: 65539 -1 450
+Encoding: 65539 -1 455
 Width: 431
 GlyphClass: 2
 Flags: W
@@ -14271,12 +14479,12 @@ AnchorPoint: "Anchor-1" 190 -400 basechar 0
 AnchorPoint: "Anchor-0" 200 550 basechar 0
 LayerCount: 2
 Fore
-Refer: 513 -1 N 1 0 0 1 0 0 2
-Refer: 502 -1 N 1 0 0 1 -84 0 2
+Refer: 518 -1 N 1 0 0 1 0 0 2
+Refer: 507 -1 N 1 0 0 1 -84 0 2
 EndChar
 
 StartChar: glyph166
-Encoding: 65540 -1 451
+Encoding: 65540 -1 456
 Width: 861
 GlyphClass: 2
 Flags: W
@@ -14326,7 +14534,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57428.init
-Encoding: 65541 -1 452
+Encoding: 65541 -1 457
 Width: 792
 GlyphClass: 2
 Flags: W
@@ -14334,12 +14542,12 @@ AnchorPoint: "Anchor-1" 400 -80 basechar 0
 AnchorPoint: "Anchor-0" 400 730 basechar 0
 LayerCount: 2
 Fore
-Refer: 466 -1 N 1 0 0 1 0 0 3
-Refer: 501 -1 N 1 0 0 1 135 0 2
+Refer: 471 -1 N 1 0 0 1 0 0 3
+Refer: 506 -1 N 1 0 0 1 135 0 2
 EndChar
 
 StartChar: caron_side
-Encoding: 65542 -1 453
+Encoding: 65542 -1 458
 Width: 200
 GlyphClass: 2
 Flags: W
@@ -14355,7 +14563,7 @@ EndSplineSet
 EndChar
 
 StartChar: metamil
-Encoding: 65543 -1 454
+Encoding: 65543 -1 459
 Width: 980
 GlyphClass: 3
 Flags: W
@@ -14401,7 +14609,7 @@ Ligature2: "'abvs' Above Base Substitutions in Tamil2 lookup 3 subtable" uni0BAE
 EndChar
 
 StartChar: nahalfdeva
-Encoding: 65544 -1 455
+Encoding: 65544 -1 460
 Width: 318
 GlyphClass: 3
 Flags: W
@@ -14429,7 +14637,7 @@ Ligature2: "'half' Half Forms in Devanagari2 lookup 2 subtable" nadeva virama
 EndChar
 
 StartChar: sahalfdeva
-Encoding: 65545 -1 456
+Encoding: 65545 -1 461
 Width: 484
 GlyphClass: 3
 Flags: W
@@ -14467,7 +14675,7 @@ Ligature2: "'half' Half Forms in Devanagari2 lookup 2 subtable" sadeva virama
 EndChar
 
 StartChar: fadeva
-Encoding: 65546 -1 457
+Encoding: 65546 -1 462
 Width: 733
 GlyphClass: 3
 Flags: W
@@ -14516,7 +14724,7 @@ Ligature2: "'nukt' Nukta Forms in Devanagari2 lookup 1 subtable" uni092B uni093C
 EndChar
 
 StartChar: tatadeva
-Encoding: 65547 -1 458
+Encoding: 65547 -1 463
 Width: 673
 GlyphClass: 3
 Flags: W
@@ -14550,7 +14758,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari2 lookup 0 subtable" taha
 EndChar
 
 StartChar: tahalfdeva
-Encoding: 65548 -1 459
+Encoding: 65548 -1 464
 Width: 334
 GlyphClass: 3
 Flags: W
@@ -14579,7 +14787,7 @@ Ligature2: "'half' Half Forms in Devanagari2 lookup 2 subtable" tadeva virama
 EndChar
 
 StartChar: afii57415.fina
-Encoding: 65549 -1 460
+Encoding: 65549 -1 465
 Width: 305
 GlyphClass: 2
 Flags: W
@@ -14604,7 +14812,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph4
-Encoding: 65550 -1 461
+Encoding: 65550 -1 466
 Width: 766
 GlyphClass: 2
 Flags: W
@@ -14646,7 +14854,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph5
-Encoding: 65551 -1 462
+Encoding: 65551 -1 467
 Width: 766
 GlyphClass: 2
 Flags: W
@@ -14689,7 +14897,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph6
-Encoding: 65552 -1 463
+Encoding: 65552 -1 468
 Width: 802
 GlyphClass: 2
 Flags: W
@@ -14740,7 +14948,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph7
-Encoding: 65553 -1 464
+Encoding: 65553 -1 469
 Width: 831
 GlyphClass: 2
 Flags: W
@@ -14796,7 +15004,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57425.fina
-Encoding: 65554 -1 465
+Encoding: 65554 -1 470
 Width: 470
 GlyphClass: 2
 Flags: W
@@ -14834,7 +15042,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57427.init
-Encoding: 65555 -1 466
+Encoding: 65555 -1 471
 Width: 792
 GlyphClass: 2
 Flags: W
@@ -14887,7 +15095,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57427.medi
-Encoding: 65556 -1 467
+Encoding: 65556 -1 472
 Width: 798
 GlyphClass: 2
 Flags: W
@@ -14946,7 +15154,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57427.fina
-Encoding: 65557 -1 468
+Encoding: 65557 -1 473
 Width: 1224
 GlyphClass: 2
 Flags: W
@@ -15012,7 +15220,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57429.init
-Encoding: 65558 -1 469
+Encoding: 65558 -1 474
 Width: 947
 GlyphClass: 2
 Flags: W
@@ -15055,7 +15263,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57429.medi
-Encoding: 65559 -1 470
+Encoding: 65559 -1 475
 Width: 937
 GlyphClass: 2
 Flags: W
@@ -15104,7 +15312,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57429.fina
-Encoding: 65560 -1 471
+Encoding: 65560 -1 476
 Width: 1324
 GlyphClass: 2
 Flags: W
@@ -15161,7 +15369,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57433.init
-Encoding: 65561 -1 472
+Encoding: 65561 -1 477
 Width: 608
 GlyphClass: 2
 Flags: W
@@ -15200,7 +15408,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57433.medi
-Encoding: 65562 -1 473
+Encoding: 65562 -1 478
 Width: 498
 GlyphClass: 2
 Flags: W
@@ -15247,7 +15455,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57433.fina
-Encoding: 65563 -1 474
+Encoding: 65563 -1 479
 Width: 545
 GlyphClass: 2
 Flags: W
@@ -15303,7 +15511,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57443.init
-Encoding: 65564 -1 475
+Encoding: 65564 -1 480
 Width: 499
 GlyphClass: 2
 Flags: W
@@ -15340,7 +15548,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57443.medi
-Encoding: 65565 -1 476
+Encoding: 65565 -1 481
 Width: 553
 GlyphClass: 2
 Flags: W
@@ -15385,7 +15593,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57443.fina
-Encoding: 65566 -1 477
+Encoding: 65566 -1 482
 Width: 887
 GlyphClass: 2
 Flags: W
@@ -15443,7 +15651,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57444.init
-Encoding: 65567 -1 478
+Encoding: 65567 -1 483
 Width: 256
 GlyphClass: 2
 Flags: W
@@ -15468,7 +15676,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57444.medi
-Encoding: 65568 -1 479
+Encoding: 65568 -1 484
 Width: 295
 GlyphClass: 2
 Flags: W
@@ -15498,7 +15706,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57444.fina
-Encoding: 65569 -1 480
+Encoding: 65569 -1 485
 Width: 712
 GlyphClass: 2
 Flags: W
@@ -15541,7 +15749,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57445.init
-Encoding: 65570 -1 481
+Encoding: 65570 -1 486
 Width: 549
 GlyphClass: 2
 Flags: W
@@ -15578,7 +15786,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57445.medi
-Encoding: 65571 -1 482
+Encoding: 65571 -1 487
 Width: 497
 GlyphClass: 2
 Flags: W
@@ -15621,7 +15829,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57445.fina
-Encoding: 65572 -1 483
+Encoding: 65572 -1 488
 Width: 636
 GlyphClass: 2
 Flags: W
@@ -15668,7 +15876,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57470.init
-Encoding: 65573 -1 484
+Encoding: 65573 -1 489
 Width: 611
 GlyphClass: 2
 Flags: W
@@ -15712,7 +15920,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57470.medi
-Encoding: 65574 -1 485
+Encoding: 65574 -1 490
 Width: 469
 GlyphClass: 2
 Flags: W
@@ -15768,7 +15976,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57470.fina
-Encoding: 65575 -1 486
+Encoding: 65575 -1 491
 Width: 545
 GlyphClass: 2
 Flags: W
@@ -15809,7 +16017,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57448.fina
-Encoding: 65576 -1 487
+Encoding: 65576 -1 492
 Width: 564
 GlyphClass: 2
 Flags: W
@@ -15857,7 +16065,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57449.fina
-Encoding: 65577 -1 488
+Encoding: 65577 -1 493
 Width: 827
 GlyphClass: 2
 Flags: W
@@ -15899,7 +16107,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57444.init_afii57415.fina.rlig
-Encoding: 65578 -1 489
+Encoding: 65578 -1 494
 Width: 623
 GlyphClass: 3
 Flags: W
@@ -15948,7 +16156,7 @@ Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" afii57444.ini
 EndChar
 
 StartChar: afii57444.medi_afii57415.fina.rlig
-Encoding: 65579 -1 490
+Encoding: 65579 -1 495
 Width: 735
 GlyphClass: 3
 Flags: W
@@ -15995,7 +16203,7 @@ Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" afii57444.med
 EndChar
 
 StartChar: glyph45
-Encoding: 65580 -1 491
+Encoding: 65580 -1 496
 Width: 971
 GlyphClass: 2
 Flags: W
@@ -16029,7 +16237,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph46
-Encoding: 65581 -1 492
+Encoding: 65581 -1 497
 Width: 1025
 GlyphClass: 2
 Flags: W
@@ -16065,7 +16273,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph47
-Encoding: 65582 -1 493
+Encoding: 65582 -1 498
 Width: 506
 GlyphClass: 2
 Flags: W
@@ -16102,7 +16310,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph48
-Encoding: 65583 -1 494
+Encoding: 65583 -1 499
 Width: 466
 GlyphClass: 2
 Flags: W
@@ -16142,7 +16350,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph49
-Encoding: 65584 -1 495
+Encoding: 65584 -1 500
 Width: 1022
 GlyphClass: 2
 Flags: W
@@ -16183,7 +16391,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph50
-Encoding: 65585 -1 496
+Encoding: 65585 -1 501
 Width: 985
 GlyphClass: 2
 Flags: W
@@ -16227,7 +16435,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph51
-Encoding: 65586 -1 497
+Encoding: 65586 -1 502
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -16275,7 +16483,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph52
-Encoding: 65587 -1 498
+Encoding: 65587 -1 503
 Width: 773
 GlyphClass: 2
 Flags: W
@@ -16326,7 +16534,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph53
-Encoding: 65588 -1 499
+Encoding: 65588 -1 504
 Width: 512
 GlyphClass: 2
 Flags: W
@@ -16342,7 +16550,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph54
-Encoding: 65589 -1 500
+Encoding: 65589 -1 505
 Width: 512
 GlyphClass: 2
 Flags: W
@@ -16363,7 +16571,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph55
-Encoding: 65590 -1 501
+Encoding: 65590 -1 506
 Width: 575
 GlyphClass: 2
 Flags: W
@@ -16390,7 +16598,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph56
-Encoding: 65591 -1 502
+Encoding: 65591 -1 507
 Width: 528
 GlyphClass: 2
 Flags: W
@@ -16417,7 +16625,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni06A9.fina
-Encoding: 65592 -1 503
+Encoding: 65592 -1 508
 Width: 935
 GlyphClass: 2
 Flags: W
@@ -16466,7 +16674,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57509.init
-Encoding: 65593 -1 504
+Encoding: 65593 -1 509
 Width: 499
 GlyphClass: 2
 Flags: W
@@ -16474,12 +16682,12 @@ AnchorPoint: "Anchor-1" 150 -80 basechar 0
 AnchorPoint: "Anchor-0" 150 840 basechar 0
 LayerCount: 2
 Fore
-Refer: 475 -1 N 1 0 0 1 0 0 3
-Refer: 581 -1 N 1 0 0 1 -34 0 2
+Refer: 480 -1 N 1 0 0 1 0 0 3
+Refer: 586 -1 N 1 0 0 1 -34 0 2
 EndChar
 
 StartChar: afii57509.medi
-Encoding: 65594 -1 505
+Encoding: 65594 -1 510
 Width: 553
 GlyphClass: 2
 Flags: W
@@ -16487,12 +16695,12 @@ AnchorPoint: "Anchor-1" 200 -80 basechar 0
 AnchorPoint: "Anchor-0" 150 840 basechar 0
 LayerCount: 2
 Fore
-Refer: 476 -1 N 1 0 0 1 0 0 3
-Refer: 581 -1 N 1 0 0 1 -34 0 2
+Refer: 481 -1 N 1 0 0 1 0 0 3
+Refer: 586 -1 N 1 0 0 1 -34 0 2
 EndChar
 
 StartChar: afii57509.fina
-Encoding: 65595 -1 506
+Encoding: 65595 -1 511
 Width: 935
 GlyphClass: 2
 Flags: W
@@ -16500,12 +16708,12 @@ AnchorPoint: "Anchor-1" 350 -80 basechar 0
 AnchorPoint: "Anchor-0" 470 810 basechar 0
 LayerCount: 2
 Fore
-Refer: 503 -1 N 1 0 0 1 0 0 3
-Refer: 581 -1 N 1 0 0 1 338 0 2
+Refer: 508 -1 N 1 0 0 1 0 0 3
+Refer: 586 -1 N 1 0 0 1 338 0 2
 EndChar
 
 StartChar: glyph64
-Encoding: 65596 -1 507
+Encoding: 65596 -1 512
 Width: 706
 GlyphClass: 2
 Flags: W
@@ -16537,7 +16745,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph65
-Encoding: 65597 -1 508
+Encoding: 65597 -1 513
 Width: 705
 GlyphClass: 2
 Flags: W
@@ -16573,7 +16781,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph69
-Encoding: 65598 -1 509
+Encoding: 65598 -1 514
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -16596,7 +16804,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57423.fina
-Encoding: 65599 -1 510
+Encoding: 65599 -1 515
 Width: 570
 GlyphClass: 2
 Flags: W
@@ -16630,7 +16838,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph71
-Encoding: 65600 -1 511
+Encoding: 65600 -1 516
 Width: 332
 GlyphClass: 2
 Flags: W
@@ -16657,7 +16865,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph72
-Encoding: 65601 -1 512
+Encoding: 65601 -1 517
 Width: 352
 GlyphClass: 2
 Flags: W
@@ -16689,7 +16897,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph73
-Encoding: 65602 -1 513
+Encoding: 65602 -1 518
 Width: 413
 GlyphClass: 2
 Flags: W
@@ -16718,7 +16926,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph74
-Encoding: 65603 -1 514
+Encoding: 65603 -1 519
 Width: 434
 GlyphClass: 2
 Flags: W
@@ -16750,7 +16958,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57507.fina
-Encoding: 65604 -1 515
+Encoding: 65604 -1 520
 Width: 861
 GlyphClass: 2
 Flags: W
@@ -16758,12 +16966,12 @@ AnchorPoint: "Anchor-1" 200 -375 basechar 0
 AnchorPoint: "Anchor-0" 400 500 basechar 0
 LayerCount: 2
 Fore
-Refer: 451 -1 N 1 0 0 1 0 0 3
-Refer: 502 -1 N 1 0 0 1 179 16 2
+Refer: 456 -1 N 1 0 0 1 0 0 3
+Refer: 507 -1 N 1 0 0 1 179 16 2
 EndChar
 
 StartChar: glyph77
-Encoding: 65605 -1 516
+Encoding: 65605 -1 521
 Width: 512
 GlyphClass: 2
 Flags: W
@@ -16779,7 +16987,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph78
-Encoding: 65606 -1 517
+Encoding: 65606 -1 522
 Width: 291
 GlyphClass: 2
 Flags: W
@@ -16804,7 +17012,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph79
-Encoding: 65607 -1 518
+Encoding: 65607 -1 523
 Width: 295
 GlyphClass: 2
 Flags: W
@@ -16826,7 +17034,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57410.fina
-Encoding: 65608 -1 519
+Encoding: 65608 -1 524
 Width: 305
 GlyphClass: 2
 Flags: W
@@ -16834,12 +17042,12 @@ AnchorPoint: "Anchor-1" 180 -70 basechar 0
 AnchorPoint: "Anchor-0" 150 950 basechar 0
 LayerCount: 2
 Fore
-Refer: 518 -1 N 1 0 0 1 10 0 2
-Refer: 509 -1 N 1 0 0 1 53 122 2
+Refer: 523 -1 N 1 0 0 1 10 0 2
+Refer: 514 -1 N 1 0 0 1 53 122 2
 EndChar
 
 StartChar: afii57416.init
-Encoding: 65609 -1 520
+Encoding: 65609 -1 525
 Width: 332
 GlyphClass: 2
 Flags: W
@@ -16847,12 +17055,12 @@ AnchorPoint: "Anchor-1" 150 -300 basechar 0
 AnchorPoint: "Anchor-0" 115 550 basechar 0
 LayerCount: 2
 Fore
-Refer: 511 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 -99 -657 2
+Refer: 516 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 -99 -657 2
 EndChar
 
 StartChar: afii57416.medi
-Encoding: 65610 -1 521
+Encoding: 65610 -1 526
 Width: 352
 GlyphClass: 2
 Flags: W
@@ -16860,12 +17068,12 @@ AnchorPoint: "Anchor-1" 180 -300 basechar 0
 AnchorPoint: "Anchor-0" 200 400 basechar 0
 LayerCount: 2
 Fore
-Refer: 512 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 -68 -657 2
+Refer: 517 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 -68 -657 2
 EndChar
 
 StartChar: afii57416.fina
-Encoding: 65611 -1 522
+Encoding: 65611 -1 527
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -16873,12 +17081,12 @@ AnchorPoint: "Anchor-1" 490 -290 basechar 0
 AnchorPoint: "Anchor-0" 470 500 basechar 0
 LayerCount: 2
 Fore
-Refer: 492 -1 N 1 0 0 1 -40 0 2
-Refer: 499 -1 N 1 0 0 1 276 -657 2
+Refer: 497 -1 N 1 0 0 1 -40 0 2
+Refer: 504 -1 N 1 0 0 1 276 -657 2
 EndChar
 
 StartChar: afii57506.fina
-Encoding: 65612 -1 523
+Encoding: 65612 -1 528
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -16886,12 +17094,12 @@ AnchorPoint: "Anchor-1" 530 -390 basechar 0
 AnchorPoint: "Anchor-0" 470 500 basechar 0
 LayerCount: 2
 Fore
-Refer: 492 -1 N 1 0 0 1 -40 0 2
-Refer: 502 -1 N 1 0 0 1 257 0 2
+Refer: 497 -1 N 1 0 0 1 -40 0 2
+Refer: 507 -1 N 1 0 0 1 257 0 2
 EndChar
 
 StartChar: afii57506.medi
-Encoding: 65613 -1 524
+Encoding: 65613 -1 529
 Width: 434
 GlyphClass: 2
 Flags: W
@@ -16899,12 +17107,12 @@ AnchorPoint: "Anchor-1" 220 -400 basechar 0
 AnchorPoint: "Anchor-0" 260 400 basechar 0
 LayerCount: 2
 Fore
-Refer: 514 -1 N 1 0 0 1 0 0 3
-Refer: 502 -1 N 1 0 0 1 -52 0 2
+Refer: 519 -1 N 1 0 0 1 0 0 3
+Refer: 507 -1 N 1 0 0 1 -52 0 2
 EndChar
 
 StartChar: afii57418.init
-Encoding: 65614 -1 525
+Encoding: 65614 -1 530
 Width: 394
 GlyphClass: 2
 Flags: W
@@ -16912,12 +17120,12 @@ AnchorPoint: "Anchor-1" 150 -80 basechar 0
 AnchorPoint: "Anchor-0" 150 750 basechar 0
 LayerCount: 2
 Fore
-Refer: 511 -1 N 1 0 0 1 0 0 2
-Refer: 500 -1 N 1 0 0 1 -88 122 2
+Refer: 516 -1 N 1 0 0 1 0 0 2
+Refer: 505 -1 N 1 0 0 1 -88 122 2
 EndChar
 
 StartChar: afii57418.medi
-Encoding: 65615 -1 526
+Encoding: 65615 -1 531
 Width: 434
 GlyphClass: 2
 Flags: W
@@ -16925,12 +17133,12 @@ AnchorPoint: "Anchor-1" 200 -80 basechar 0
 AnchorPoint: "Anchor-0" 190 590 basechar 0
 LayerCount: 2
 Fore
-Refer: 514 -1 N 1 0 0 1 0 0 3
-Refer: 500 -1 N 1 0 0 1 -46 -48 2
+Refer: 519 -1 N 1 0 0 1 0 0 3
+Refer: 505 -1 N 1 0 0 1 -46 -48 2
 EndChar
 
 StartChar: afii57418.fina
-Encoding: 65616 -1 527
+Encoding: 65616 -1 532
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -16938,12 +17146,12 @@ AnchorPoint: "Anchor-1" 430 -80 basechar 0
 AnchorPoint: "Anchor-0" 490 560 basechar 0
 LayerCount: 2
 Fore
-Refer: 492 -1 N 1 0 0 1 -40 0 2
-Refer: 500 -1 N 1 0 0 1 250 -74 2
+Refer: 497 -1 N 1 0 0 1 -40 0 2
+Refer: 505 -1 N 1 0 0 1 250 -74 2
 EndChar
 
 StartChar: afii57417.fina
-Encoding: 65617 -1 528
+Encoding: 65617 -1 533
 Width: 563
 GlyphClass: 2
 Flags: W
@@ -16951,12 +17159,12 @@ AnchorPoint: "Anchor-1" 300 -80 basechar 0
 AnchorPoint: "Anchor-0" 238 845 basechar 0
 LayerCount: 2
 Fore
-Refer: 486 -1 N 1 0 0 1 18 0 2
-Refer: 500 -1 N 1 0 0 1 -6 210 2
+Refer: 491 -1 N 1 0 0 1 18 0 2
+Refer: 505 -1 N 1 0 0 1 -6 210 2
 EndChar
 
 StartChar: afii57507.init
-Encoding: 65618 -1 529
+Encoding: 65618 -1 534
 Width: 766
 GlyphClass: 2
 Flags: W
@@ -16964,12 +17172,12 @@ AnchorPoint: "Anchor-1" 400 -380 basechar 0
 AnchorPoint: "Anchor-0" 400 550 basechar 0
 LayerCount: 2
 Fore
-Refer: 462 -1 N 1 0 0 1 0 0 3
-Refer: 502 -1 N 1 0 0 1 114 0 2
+Refer: 467 -1 N 1 0 0 1 0 0 3
+Refer: 507 -1 N 1 0 0 1 114 0 2
 EndChar
 
 StartChar: afii57507.medi
-Encoding: 65619 -1 530
+Encoding: 65619 -1 535
 Width: 802
 GlyphClass: 2
 Flags: W
@@ -16977,12 +17185,12 @@ AnchorPoint: "Anchor-1" 400 -380 basechar 0
 AnchorPoint: "Anchor-0" 400 550 basechar 0
 LayerCount: 2
 Fore
-Refer: 463 -1 N 1 0 0 1 0 0 3
-Refer: 502 -1 N 1 0 0 1 114 0 2
+Refer: 468 -1 N 1 0 0 1 0 0 3
+Refer: 507 -1 N 1 0 0 1 114 0 2
 EndChar
 
 StartChar: afii57420.init
-Encoding: 65620 -1 531
+Encoding: 65620 -1 536
 Width: 766
 GlyphClass: 2
 Flags: W
@@ -16990,12 +17198,12 @@ AnchorPoint: "Anchor-1" 370 -270 basechar 0
 AnchorPoint: "Anchor-0" 400 550 basechar 0
 LayerCount: 2
 Fore
-Refer: 462 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 137 -642 2
+Refer: 467 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 137 -642 2
 EndChar
 
 StartChar: afii57420.medi
-Encoding: 65621 -1 532
+Encoding: 65621 -1 537
 Width: 802
 GlyphClass: 2
 Flags: W
@@ -17003,12 +17211,12 @@ AnchorPoint: "Anchor-1" 370 -270 basechar 0
 AnchorPoint: "Anchor-0" 400 550 basechar 0
 LayerCount: 2
 Fore
-Refer: 463 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 137 -642 2
+Refer: 468 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 137 -642 2
 EndChar
 
 StartChar: afii57420.fina
-Encoding: 65622 -1 533
+Encoding: 65622 -1 538
 Width: 831
 GlyphClass: 2
 Flags: W
@@ -17016,12 +17224,12 @@ AnchorPoint: "Anchor-1" 200 -475 basechar 0
 AnchorPoint: "Anchor-0" 400 500 basechar 0
 LayerCount: 2
 Fore
-Refer: 464 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 174 -630 2
+Refer: 469 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 174 -630 2
 EndChar
 
 StartChar: afii57422.init
-Encoding: 65623 -1 534
+Encoding: 65623 -1 539
 Width: 766
 GlyphClass: 2
 Flags: W
@@ -17029,12 +17237,12 @@ AnchorPoint: "Anchor-1" 300 -75 basechar 0
 AnchorPoint: "Anchor-0" 460 680 basechar 0
 LayerCount: 2
 Fore
-Refer: 462 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 238 44 2
+Refer: 467 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 238 44 2
 EndChar
 
 StartChar: afii57422.medi
-Encoding: 65624 -1 535
+Encoding: 65624 -1 540
 Width: 802
 GlyphClass: 2
 Flags: W
@@ -17042,12 +17250,12 @@ AnchorPoint: "Anchor-1" 300 -75 basechar 0
 AnchorPoint: "Anchor-0" 460 680 basechar 0
 LayerCount: 2
 Fore
-Refer: 463 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 238 44 2
+Refer: 468 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 238 44 2
 EndChar
 
 StartChar: afii57422.fina
-Encoding: 65625 -1 536
+Encoding: 65625 -1 541
 Width: 831
 GlyphClass: 2
 Flags: W
@@ -17055,12 +17263,12 @@ AnchorPoint: "Anchor-1" 200 -475 basechar 0
 AnchorPoint: "Anchor-0" 440 650 basechar 0
 LayerCount: 2
 Fore
-Refer: 464 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 206 44 2
+Refer: 469 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 206 44 2
 EndChar
 
 StartChar: afii57424.fina
-Encoding: 65626 -1 537
+Encoding: 65626 -1 542
 Width: 570
 GlyphClass: 2
 Flags: W
@@ -17068,12 +17276,12 @@ AnchorPoint: "Anchor-1" 225 -80 basechar 0
 AnchorPoint: "Anchor-0" 210 800 basechar 0
 LayerCount: 2
 Fore
-Refer: 510 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 43 156 2
+Refer: 515 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 43 156 2
 EndChar
 
 StartChar: afii57426.fina
-Encoding: 65627 -1 538
+Encoding: 65627 -1 543
 Width: 470
 GlyphClass: 2
 Flags: W
@@ -17081,12 +17289,12 @@ AnchorPoint: "Anchor-1" 180 -300 basechar 0
 AnchorPoint: "Anchor-0" 200 680 basechar 0
 LayerCount: 2
 Fore
-Refer: 465 -1 N 1 0 0 1 0 0 2
-Refer: 499 -1 N 1 0 0 1 -6 85 2
+Refer: 470 -1 N 1 0 0 1 0 0 2
+Refer: 504 -1 N 1 0 0 1 -6 85 2
 EndChar
 
 StartChar: afii57428.medi
-Encoding: 65628 -1 539
+Encoding: 65628 -1 544
 Width: 798
 GlyphClass: 2
 Flags: W
@@ -17094,12 +17302,12 @@ AnchorPoint: "Anchor-1" 400 -80 basechar 0
 AnchorPoint: "Anchor-0" 390 730 basechar 0
 LayerCount: 2
 Fore
-Refer: 467 -1 N 1 0 0 1 0 0 3
-Refer: 501 -1 N 1 0 0 1 120 0 2
+Refer: 472 -1 N 1 0 0 1 0 0 3
+Refer: 506 -1 N 1 0 0 1 120 0 2
 EndChar
 
 StartChar: afii57428.fina
-Encoding: 65629 -1 540
+Encoding: 65629 -1 545
 Width: 1224
 GlyphClass: 2
 Flags: W
@@ -17107,12 +17315,12 @@ AnchorPoint: "Anchor-1" 840 -120 basechar 0
 AnchorPoint: "Anchor-0" 825 730 basechar 0
 LayerCount: 2
 Fore
-Refer: 468 -1 N 1 0 0 1 0 0 3
-Refer: 501 -1 N 1 0 0 1 572 0 2
+Refer: 473 -1 N 1 0 0 1 0 0 3
+Refer: 506 -1 N 1 0 0 1 572 0 2
 EndChar
 
 StartChar: afii57434.init
-Encoding: 65630 -1 541
+Encoding: 65630 -1 546
 Width: 608
 GlyphClass: 2
 Flags: W
@@ -17120,12 +17328,12 @@ AnchorPoint: "Anchor-1" 250 -80 basechar 0
 AnchorPoint: "Anchor-0" 150 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 472 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 -67 100 2
+Refer: 477 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 -67 100 2
 EndChar
 
 StartChar: afii57434.medi
-Encoding: 65631 -1 542
+Encoding: 65631 -1 547
 Width: 498
 GlyphClass: 2
 Flags: W
@@ -17133,12 +17341,12 @@ AnchorPoint: "Anchor-1" 250 -80 basechar 0
 AnchorPoint: "Anchor-0" 220 740 basechar 0
 LayerCount: 2
 Fore
-Refer: 473 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 4 123 2
+Refer: 478 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 4 123 2
 EndChar
 
 StartChar: afii57434.fina
-Encoding: 65632 -1 543
+Encoding: 65632 -1 548
 Width: 545
 GlyphClass: 2
 Flags: W
@@ -17146,12 +17354,12 @@ AnchorPoint: "Anchor-1" 170 -440 basechar 0
 AnchorPoint: "Anchor-0" 280 730 basechar 0
 LayerCount: 2
 Fore
-Refer: 474 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 40 123 2
+Refer: 479 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 40 123 2
 EndChar
 
 StartChar: uni06A9.init
-Encoding: 65633 -1 544
+Encoding: 65633 -1 549
 Width: 499
 GlyphClass: 2
 Flags: W
@@ -17159,11 +17367,11 @@ AnchorPoint: "Anchor-1" 150 -80 basechar 0
 AnchorPoint: "Anchor-0" 150 775 basechar 0
 LayerCount: 2
 Fore
-Refer: 475 -1 N 1 0 0 1 0 0 3
+Refer: 480 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni06A9.medi
-Encoding: 65634 -1 545
+Encoding: 65634 -1 550
 Width: 553
 GlyphClass: 2
 Flags: W
@@ -17171,11 +17379,11 @@ AnchorPoint: "Anchor-1" 200 -80 basechar 0
 AnchorPoint: "Anchor-0" 150 775 basechar 0
 LayerCount: 2
 Fore
-Refer: 476 -1 N 1 0 0 1 0 0 3
+Refer: 481 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii57441.init
-Encoding: 65635 -1 546
+Encoding: 65635 -1 551
 Width: 506
 GlyphClass: 2
 Flags: W
@@ -17183,12 +17391,12 @@ AnchorPoint: "Anchor-1" 230 -80 basechar 0
 AnchorPoint: "Anchor-0" 175 860 basechar 0
 LayerCount: 2
 Fore
-Refer: 493 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 -55 236 2
+Refer: 498 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 -55 236 2
 EndChar
 
 StartChar: afii57441.medi
-Encoding: 65636 -1 547
+Encoding: 65636 -1 552
 Width: 466
 GlyphClass: 2
 Flags: W
@@ -17196,12 +17404,12 @@ AnchorPoint: "Anchor-1" 230 -80 basechar 0
 AnchorPoint: "Anchor-0" 190 750 basechar 0
 LayerCount: 2
 Fore
-Refer: 494 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 -34 127 2
+Refer: 499 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 -34 127 2
 EndChar
 
 StartChar: afii57441.fina
-Encoding: 65637 -1 548
+Encoding: 65637 -1 553
 Width: 985
 GlyphClass: 2
 Flags: W
@@ -17209,12 +17417,12 @@ AnchorPoint: "Anchor-1" 730 -80 basechar 0
 AnchorPoint: "Anchor-0" 730 785 basechar 0
 LayerCount: 2
 Fore
-Refer: 496 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 507 152 2
+Refer: 501 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 507 152 2
 EndChar
 
 StartChar: afii57442.init
-Encoding: 65638 -1 549
+Encoding: 65638 -1 554
 Width: 506
 GlyphClass: 2
 Flags: W
@@ -17222,12 +17430,12 @@ AnchorPoint: "Anchor-1" 230 -80 basechar 0
 AnchorPoint: "Anchor-0" 175 860 basechar 0
 LayerCount: 2
 Fore
-Refer: 493 -1 N 1 0 0 1 0 0 3
-Refer: 500 -1 N 1 0 0 1 -60 208 2
+Refer: 498 -1 N 1 0 0 1 0 0 3
+Refer: 505 -1 N 1 0 0 1 -60 208 2
 EndChar
 
 StartChar: afii57442.medi
-Encoding: 65639 -1 550
+Encoding: 65639 -1 555
 Width: 466
 GlyphClass: 2
 Flags: W
@@ -17235,12 +17443,12 @@ AnchorPoint: "Anchor-1" 230 -80 basechar 0
 AnchorPoint: "Anchor-0" 200 750 basechar 0
 LayerCount: 2
 Fore
-Refer: 494 -1 N 1 0 0 1 0 0 3
-Refer: 500 -1 N 1 0 0 1 -34 106 2
+Refer: 499 -1 N 1 0 0 1 0 0 3
+Refer: 505 -1 N 1 0 0 1 -34 106 2
 EndChar
 
 StartChar: afii57442.fina
-Encoding: 65640 -1 551
+Encoding: 65640 -1 556
 Width: 773
 GlyphClass: 2
 Flags: W
@@ -17248,12 +17456,12 @@ AnchorPoint: "Anchor-1" 370 -420 basechar 0
 AnchorPoint: "Anchor-0" 460 730 basechar 0
 LayerCount: 2
 Fore
-Refer: 498 -1 N 1 0 0 1 0 0 3
-Refer: 500 -1 N 1 0 0 1 213 87 2
+Refer: 503 -1 N 1 0 0 1 0 0 3
+Refer: 505 -1 N 1 0 0 1 213 87 2
 EndChar
 
 StartChar: afii57446.init
-Encoding: 65641 -1 552
+Encoding: 65641 -1 557
 Width: 332
 GlyphClass: 2
 Flags: W
@@ -17261,12 +17469,12 @@ AnchorPoint: "Anchor-1" 150 -80 basechar 0
 AnchorPoint: "Anchor-0" 115 730 basechar 0
 LayerCount: 2
 Fore
-Refer: 511 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 -102 114 2
+Refer: 516 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 -102 114 2
 EndChar
 
 StartChar: afii57446.medi
-Encoding: 65642 -1 553
+Encoding: 65642 -1 558
 Width: 352
 GlyphClass: 2
 Flags: W
@@ -17274,12 +17482,12 @@ AnchorPoint: "Anchor-1" 170 -80 basechar 0
 AnchorPoint: "Anchor-0" 130 580 basechar 0
 LayerCount: 2
 Fore
-Refer: 512 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 -80 -44 2
+Refer: 517 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 -80 -44 2
 EndChar
 
 StartChar: afii57446.fina
-Encoding: 65643 -1 554
+Encoding: 65643 -1 559
 Width: 705
 GlyphClass: 2
 Flags: W
@@ -17287,12 +17495,12 @@ AnchorPoint: "Anchor-1" 320 -400 basechar 0
 AnchorPoint: "Anchor-0" 300 400 basechar 0
 LayerCount: 2
 Fore
-Refer: 508 -1 N 1 0 0 1 0 0 2
-Refer: 499 -1 N 1 0 0 1 84 -228 2
+Refer: 513 -1 N 1 0 0 1 0 0 2
+Refer: 504 -1 N 1 0 0 1 84 -228 2
 EndChar
 
 StartChar: afii57449.init
-Encoding: 65644 -1 555
+Encoding: 65644 -1 560
 Width: 332
 GlyphClass: 2
 Flags: W
@@ -17300,11 +17508,11 @@ AnchorPoint: "Anchor-1" 150 -80 basechar 0
 AnchorPoint: "Anchor-0" 115 550 basechar 0
 LayerCount: 2
 Fore
-Refer: 511 -1 N 1 0 0 1 0 0 3
+Refer: 516 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii57449.medi
-Encoding: 65645 -1 556
+Encoding: 65645 -1 561
 Width: 352
 GlyphClass: 2
 Flags: W
@@ -17312,11 +17520,11 @@ AnchorPoint: "Anchor-1" 170 -80 basechar 0
 AnchorPoint: "Anchor-0" 200 400 basechar 0
 LayerCount: 2
 Fore
-Refer: 512 -1 N 1 0 0 1 0 0 3
+Refer: 517 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii57450.init
-Encoding: 65646 -1 557
+Encoding: 65646 -1 562
 Width: 413
 GlyphClass: 2
 Flags: W
@@ -17324,12 +17532,12 @@ AnchorPoint: "Anchor-1" 150 -280 basechar 0
 AnchorPoint: "Anchor-0" 200 550 basechar 0
 LayerCount: 2
 Fore
-Refer: 513 -1 N 1 0 0 1 0 0 3
-Refer: 500 -1 N 1 0 0 1 -88 -644 2
+Refer: 518 -1 N 1 0 0 1 0 0 3
+Refer: 505 -1 N 1 0 0 1 -88 -644 2
 EndChar
 
 StartChar: afii57450.medi
-Encoding: 65647 -1 558
+Encoding: 65647 -1 563
 Width: 434
 GlyphClass: 2
 Flags: W
@@ -17337,12 +17545,12 @@ AnchorPoint: "Anchor-1" 210 -280 basechar 0
 AnchorPoint: "Anchor-0" 260 400 basechar 0
 LayerCount: 2
 Fore
-Refer: 514 -1 N 1 0 0 1 0 0 3
-Refer: 500 -1 N 1 0 0 1 -23 -644 2
+Refer: 519 -1 N 1 0 0 1 0 0 3
+Refer: 505 -1 N 1 0 0 1 -23 -644 2
 EndChar
 
 StartChar: afii57450.fina
-Encoding: 65648 -1 559
+Encoding: 65648 -1 564
 Width: 827
 GlyphClass: 2
 Flags: W
@@ -17350,12 +17558,12 @@ AnchorPoint: "Anchor-1" 490 -590 basechar 0
 AnchorPoint: "Anchor-0" 280 150 basechar 0
 LayerCount: 2
 Fore
-Refer: 488 -1 N 1 0 0 1 0 0 3
-Refer: 500 -1 N 1 0 0 1 238 -978 2
+Refer: 493 -1 N 1 0 0 1 0 0 3
+Refer: 505 -1 N 1 0 0 1 238 -978 2
 EndChar
 
 StartChar: uni06CC.init
-Encoding: 65649 -1 560
+Encoding: 65649 -1 565
 Width: 413
 GlyphClass: 2
 Flags: W
@@ -17363,12 +17571,12 @@ AnchorPoint: "Anchor-1" 150 -280 basechar 0
 AnchorPoint: "Anchor-0" 200 550 basechar 0
 LayerCount: 2
 Fore
-Refer: 513 -1 N 1 0 0 1 0 0 3
-Refer: 500 -1 N 1 0 0 1 -88 -644 2
+Refer: 518 -1 N 1 0 0 1 0 0 3
+Refer: 505 -1 N 1 0 0 1 -88 -644 2
 EndChar
 
 StartChar: uni06CC.medi
-Encoding: 65650 -1 561
+Encoding: 65650 -1 566
 Width: 434
 GlyphClass: 2
 Flags: W
@@ -17376,12 +17584,12 @@ AnchorPoint: "Anchor-1" 210 -280 basechar 0
 AnchorPoint: "Anchor-0" 260 400 basechar 0
 LayerCount: 2
 Fore
-Refer: 514 -1 N 1 0 0 1 0 0 3
-Refer: 500 -1 N 1 0 0 1 -23 -644 2
+Refer: 519 -1 N 1 0 0 1 0 0 3
+Refer: 505 -1 N 1 0 0 1 -23 -644 2
 EndChar
 
 StartChar: uni06CC.fina
-Encoding: 65651 -1 562
+Encoding: 65651 -1 567
 Width: 827
 GlyphClass: 2
 Flags: W
@@ -17389,11 +17597,11 @@ AnchorPoint: "Anchor-1" 350 -410 basechar 0
 AnchorPoint: "Anchor-0" 280 150 basechar 0
 LayerCount: 2
 Fore
-Refer: 488 -1 N 1 0 0 1 0 0 3
+Refer: 493 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii57414.init
-Encoding: 65652 -1 563
+Encoding: 65652 -1 568
 Width: 332
 GlyphClass: 2
 Flags: W
@@ -17401,12 +17609,12 @@ AnchorPoint: "Anchor-1" 150 -80 basechar 0
 AnchorPoint: "Anchor-0" 130 790 basechar 0
 LayerCount: 2
 Fore
-Refer: 511 -1 N 1 0 0 1 0 0 3
-Refer: 578 -1 N 1 0 0 1 58 49 2
+Refer: 516 -1 N 1 0 0 1 0 0 3
+Refer: 583 -1 N 1 0 0 1 58 49 2
 EndChar
 
 StartChar: afii57414.medi
-Encoding: 65653 -1 564
+Encoding: 65653 -1 569
 Width: 352
 GlyphClass: 2
 Flags: W
@@ -17414,12 +17622,12 @@ AnchorPoint: "Anchor-1" 170 -80 basechar 0
 AnchorPoint: "Anchor-0" 130 640 basechar 0
 LayerCount: 2
 Fore
-Refer: 512 -1 N 1 0 0 1 0 0 3
-Refer: 578 -1 N 1 0 0 1 58 -98 2
+Refer: 517 -1 N 1 0 0 1 0 0 3
+Refer: 583 -1 N 1 0 0 1 58 -98 2
 EndChar
 
 StartChar: afii57414.fina
-Encoding: 65654 -1 565
+Encoding: 65654 -1 570
 Width: 827
 GlyphClass: 2
 Flags: W
@@ -17427,12 +17635,12 @@ AnchorPoint: "Anchor-1" 350 -410 basechar 0
 AnchorPoint: "Anchor-0" 310 390 basechar 0
 LayerCount: 2
 Fore
-Refer: 488 -1 N 1 0 0 1 0 0 3
-Refer: 578 -1 N 1 0 0 1 224 -353 2
+Refer: 493 -1 N 1 0 0 1 0 0 3
+Refer: 583 -1 N 1 0 0 1 224 -353 2
 EndChar
 
 StartChar: afii57444.init_afii57410.fina.rlig
-Encoding: 65655 -1 566
+Encoding: 65655 -1 571
 Width: 675
 GlyphClass: 3
 Flags: W
@@ -17442,13 +17650,13 @@ AnchorPoint: "Anchor-3" 200 -80 baselig 1
 AnchorPoint: "Anchor-2" 190 880 baselig 1
 LayerCount: 2
 Fore
-Refer: 489 -1 N 1 0 0 1 51 0 2
-Refer: 509 -1 N 1 0 0 1 154 56 2
+Refer: 494 -1 N 1 0 0 1 51 0 2
+Refer: 514 -1 N 1 0 0 1 154 56 2
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" afii57444.init afii57410.fina
 EndChar
 
 StartChar: afii57444.medi_afii57410.fina.rlig
-Encoding: 65656 -1 567
+Encoding: 65656 -1 572
 Width: 735
 GlyphClass: 3
 Flags: W
@@ -17458,13 +17666,13 @@ AnchorPoint: "Anchor-3" 200 -80 baselig 1
 AnchorPoint: "Anchor-2" 240 850 baselig 1
 LayerCount: 2
 Fore
-Refer: 490 -1 N 1 0 0 1 0 0 3
-Refer: 509 -1 N 1 0 0 1 203 30 2
+Refer: 495 -1 N 1 0 0 1 0 0 3
+Refer: 514 -1 N 1 0 0 1 203 30 2
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" afii57444.medi afii57410.fina
 EndChar
 
 StartChar: uni06BE.fina
-Encoding: 65657 -1 568
+Encoding: 65657 -1 573
 Width: 581
 GlyphClass: 2
 Flags: W
@@ -17513,7 +17721,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni06BE.init
-Encoding: 65658 -1 569
+Encoding: 65658 -1 574
 Width: 611
 GlyphClass: 2
 Flags: W
@@ -17521,11 +17729,11 @@ AnchorPoint: "Anchor-1" 240 -80 basechar 0
 AnchorPoint: "Anchor-0" 200 600 basechar 0
 LayerCount: 2
 Fore
-Refer: 484 -1 N 1 0 0 1 0 0 3
+Refer: 489 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni06BE.medi
-Encoding: 65659 -1 570
+Encoding: 65659 -1 575
 Width: 469
 GlyphClass: 2
 Flags: W
@@ -17533,11 +17741,11 @@ AnchorPoint: "Anchor-1" 322 -300 basechar 0
 AnchorPoint: "Anchor-0" 300 600 basechar 0
 LayerCount: 2
 Fore
-Refer: 485 -1 N 1 0 0 1 0 0 3
+Refer: 490 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uni0672.fina
-Encoding: 65660 -1 571
+Encoding: 65660 -1 576
 Width: 305
 GlyphClass: 2
 Flags: W
@@ -17545,12 +17753,12 @@ AnchorPoint: "Anchor-1" 180 -70 basechar 0
 AnchorPoint: "Anchor-0" 130 1030 basechar 0
 LayerCount: 2
 Fore
-Refer: 518 -1 N 1 0 0 1 10 0 2
-Refer: 579 -1 N 1 0 0 1 74 176 2
+Refer: 523 -1 N 1 0 0 1 10 0 2
+Refer: 584 -1 N 1 0 0 1 74 176 2
 EndChar
 
 StartChar: uni068C.fina
-Encoding: 65661 -1 572
+Encoding: 65661 -1 577
 Width: 570
 GlyphClass: 2
 Flags: W
@@ -17558,12 +17766,12 @@ AnchorPoint: "Anchor-1" 225 -80 basechar 0
 AnchorPoint: "Anchor-0" 265 800 basechar 0
 LayerCount: 2
 Fore
-Refer: 510 -1 N 1 0 0 1 0 0 3
-Refer: 500 -1 N 1 0 0 1 32 150 2
+Refer: 515 -1 N 1 0 0 1 0 0 3
+Refer: 505 -1 N 1 0 0 1 32 150 2
 EndChar
 
 StartChar: uni069A.fina
-Encoding: 65662 -1 573
+Encoding: 65662 -1 578
 Width: 1224
 GlyphClass: 2
 Flags: W
@@ -17571,13 +17779,13 @@ AnchorPoint: "Anchor-1" 900 -300 basechar 0
 AnchorPoint: "Anchor-0" 780 600 basechar 0
 LayerCount: 2
 Fore
-Refer: 468 -1 N 1 0 0 1 0 0 3
-Refer: 516 -1 N 1 0 0 1 674 0 2
-Refer: 499 -1 N 1 0 0 1 580 3 2
+Refer: 473 -1 N 1 0 0 1 0 0 3
+Refer: 521 -1 N 1 0 0 1 674 0 2
+Refer: 504 -1 N 1 0 0 1 580 3 2
 EndChar
 
 StartChar: uni069A.init
-Encoding: 65663 -1 574
+Encoding: 65663 -1 579
 Width: 792
 GlyphClass: 2
 Flags: W
@@ -17585,13 +17793,13 @@ AnchorPoint: "Anchor-1" 450 -280 basechar 0
 AnchorPoint: "Anchor-0" 370 630 basechar 0
 LayerCount: 2
 Fore
-Refer: 466 -1 N 1 0 0 1 0 0 3
-Refer: 516 -1 N 1 0 0 1 242 0 2
-Refer: 499 -1 N 1 0 0 1 148 3 2
+Refer: 471 -1 N 1 0 0 1 0 0 3
+Refer: 521 -1 N 1 0 0 1 242 0 2
+Refer: 504 -1 N 1 0 0 1 148 3 2
 EndChar
 
 StartChar: uni069A.medi
-Encoding: 65664 -1 575
+Encoding: 65664 -1 580
 Width: 798
 GlyphClass: 2
 Flags: W
@@ -17599,13 +17807,13 @@ AnchorPoint: "Anchor-1" 450 -280 basechar 0
 AnchorPoint: "Anchor-0" 370 630 basechar 0
 LayerCount: 2
 Fore
-Refer: 467 -1 N 1 0 0 1 0 0 3
-Refer: 499 -1 N 1 0 0 1 148 3 2
-Refer: 516 -1 N 1 0 0 1 242 0 2
+Refer: 472 -1 N 1 0 0 1 0 0 3
+Refer: 504 -1 N 1 0 0 1 148 3 2
+Refer: 521 -1 N 1 0 0 1 242 0 2
 EndChar
 
 StartChar: afii57444.init_uni0672.fina.rlig
-Encoding: 65665 -1 576
+Encoding: 65665 -1 581
 Width: 623
 GlyphClass: 3
 Flags: W
@@ -17615,13 +17823,13 @@ AnchorPoint: "Anchor-3" 200 -80 baselig 1
 AnchorPoint: "Anchor-2" 205 955 baselig 1
 LayerCount: 2
 Fore
-Refer: 489 -1 N 1 0 0 1 0 0 3
-Refer: 579 -1 N 1 0 0 1 198 122 2
+Refer: 494 -1 N 1 0 0 1 0 0 3
+Refer: 584 -1 N 1 0 0 1 198 122 2
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" afii57444.init uni0672.fina
 EndChar
 
 StartChar: afii57444.medi_uni0672.fina.rlig
-Encoding: 65666 -1 577
+Encoding: 65666 -1 582
 Width: 735
 GlyphClass: 3
 Flags: W
@@ -17631,13 +17839,13 @@ AnchorPoint: "Anchor-3" 200 -80 baselig 1
 AnchorPoint: "Anchor-2" 285 930 baselig 1
 LayerCount: 2
 Fore
-Refer: 490 -1 N 1 0 0 1 0 0 3
-Refer: 579 -1 N 1 0 0 1 282 95 2
+Refer: 495 -1 N 1 0 0 1 0 0 3
+Refer: 584 -1 N 1 0 0 1 282 95 2
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 7 subtable" afii57444.medi uni0672.fina
 EndChar
 
 StartChar: glyph162
-Encoding: 65667 -1 578
+Encoding: 65667 -1 583
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -17671,7 +17879,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph163
-Encoding: 65668 -1 579
+Encoding: 65668 -1 584
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -17714,7 +17922,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni06C7.fina
-Encoding: 65669 -1 580
+Encoding: 65669 -1 585
 Width: 564
 GlyphClass: 2
 Flags: W
@@ -17722,12 +17930,12 @@ AnchorPoint: "Anchor-1" 240 -300 basechar 0
 AnchorPoint: "Anchor-0" 220 800 basechar 0
 LayerCount: 2
 Fore
-Refer: 487 -1 N 1 0 0 1 0 0 3
+Refer: 492 -1 N 1 0 0 1 0 0 3
 Refer: 238 1615 N 1 0 0 1 131 6 2
 EndChar
 
 StartChar: glyph167
-Encoding: 65670 -1 581
+Encoding: 65670 -1 586
 Width: 512
 GlyphClass: 2
 Flags: W
@@ -17748,7 +17956,7 @@ EndSplineSet
 EndChar
 
 StartChar: amacron
-Encoding: 65671 -1 582
+Encoding: 65671 -1 587
 Width: 543
 GlyphClass: 2
 Flags: W
@@ -17759,214 +17967,214 @@ Refer: 39 97 N 1 0 0 1 0 0 1
 EndChar
 
 StartChar: uni0F41_uni0F72.abvs
-Encoding: 65672 -1 583
+Encoding: 65672 -1 588
 Width: 564
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 342 3905 N 1 0 0 1 0 0 3
-Refer: 349 3954 N 1 0 0 1 527 0 2
+Refer: 347 3905 N 1 0 0 1 0 0 3
+Refer: 354 3954 N 1 0 0 1 527 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 9 subtable" uni0F41 uni0F72
 EndChar
 
 StartChar: uni0F41_uni0F7C_uni0F7C.ccmp.abvs
-Encoding: 65673 -1 584
+Encoding: 65673 -1 589
 Width: 564
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 342 3905 N 1 0 0 1 0 0 3
-Refer: 601 -1 N 1 0 0 1 513 0 2
+Refer: 347 3905 N 1 0 0 1 0 0 3
+Refer: 606 -1 N 1 0 0 1 513 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 11 subtable" uni0F41 uni0F7C_uni0F7C.ccmp
 EndChar
 
 StartChar: uni0F42_uni0F72.abvs
-Encoding: 65674 -1 585
+Encoding: 65674 -1 590
 Width: 582
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 343 3906 N 1 0 0 1 0 0 3
-Refer: 349 3954 N 1 0 0 1 536 0 2
+Refer: 348 3906 N 1 0 0 1 0 0 3
+Refer: 354 3954 N 1 0 0 1 536 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 9 subtable" uni0F42 uni0F72
 EndChar
 
 StartChar: uni0F42_uni0F7C.abvs
-Encoding: 65675 -1 586
+Encoding: 65675 -1 591
 Width: 582
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 343 3906 N 1 0 0 1 0 0 3
-Refer: 600 -1 N 1 0 0 1 504 0 2
+Refer: 348 3906 N 1 0 0 1 0 0 3
+Refer: 605 -1 N 1 0 0 1 504 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 10 subtable" uni0F42 uni0F7C
 EndChar
 
 StartChar: uni0F42_uni0F7C_uni0F7C.ccmp.abvs
-Encoding: 65676 -1 587
+Encoding: 65676 -1 592
 Width: 582
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 343 3906 N 1 0 0 1 0 0 3
-Refer: 601 -1 N 1 0 0 1 463 0 2
+Refer: 348 3906 N 1 0 0 1 0 0 3
+Refer: 606 -1 N 1 0 0 1 463 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 11 subtable" uni0F42 uni0F7C_uni0F7C.ccmp
 EndChar
 
 StartChar: uni0F44_uni0F72.abvs
-Encoding: 65677 -1 588
+Encoding: 65677 -1 593
 Width: 432
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 344 3908 N 1 0 0 1 0 0 3
-Refer: 349 3954 N 1 0 0 1 461 0 2
+Refer: 349 3908 N 1 0 0 1 0 0 3
+Refer: 354 3954 N 1 0 0 1 461 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 9 subtable" uni0F44 uni0F72
 PairPos2: "'kern' Horizontal Kerning in Tibetan lookup 4 subtable" uni0F0B dx=0 dy=0 dh=0 dv=0 dx=-80 dy=0 dh=-80 dv=0
 EndChar
 
 StartChar: uni0F44_uni0F7C.abvs
-Encoding: 65678 -1 589
+Encoding: 65678 -1 594
 Width: 432
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 344 3908 N 1 0 0 1 0 0 3
-Refer: 600 -1 N 1 0 0 1 459 0 2
+Refer: 349 3908 N 1 0 0 1 0 0 3
+Refer: 605 -1 N 1 0 0 1 459 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 10 subtable" uni0F44 uni0F7C
 PairPos2: "'kern' Horizontal Kerning in Tibetan lookup 4 subtable" uni0F0B dx=0 dy=0 dh=0 dv=0 dx=-80 dy=0 dh=-80 dv=0
 EndChar
 
 StartChar: uni0F47_uni0F72.abvs
-Encoding: 65679 -1 590
+Encoding: 65679 -1 595
 Width: 420
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 345 3911 N 1 0 0 1 0 0 3
-Refer: 349 3954 N 1 0 0 1 491 0 2
+Refer: 350 3911 N 1 0 0 1 0 0 3
+Refer: 354 3954 N 1 0 0 1 491 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 9 subtable" uni0F47 uni0F72
 EndChar
 
 StartChar: uni0F47_uni0F7C.abvs
-Encoding: 65680 -1 591
+Encoding: 65680 -1 596
 Width: 420
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 345 3911 N 1 0 0 1 0 0 3
-Refer: 600 -1 N 1 0 0 1 456 0 2
+Refer: 350 3911 N 1 0 0 1 0 0 3
+Refer: 605 -1 N 1 0 0 1 456 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 10 subtable" uni0F47 uni0F7C
 EndChar
 
 StartChar: uni0F51_uni0F72.abvs
-Encoding: 65681 -1 592
+Encoding: 65681 -1 597
 Width: 456
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 346 3921 N 1 0 0 1 10 0 3
-Refer: 349 3954 N 1 0 0 1 477 0 2
+Refer: 351 3921 N 1 0 0 1 10 0 3
+Refer: 354 3954 N 1 0 0 1 477 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 9 subtable" uni0F51 uni0F72
 PairPos2: "'kern' Horizontal Kerning in Tibetan lookup 4 subtable" uni0F0B dx=0 dy=0 dh=0 dv=0 dx=-84 dy=0 dh=-84 dv=0
 EndChar
 
 StartChar: uni0F51_uni0F7C_uni0F7C.ccmp.abvs
-Encoding: 65682 -1 593
+Encoding: 65682 -1 598
 Width: 456
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 346 3921 N 1 0 0 1 0 0 3
-Refer: 601 -1 N 1 0 0 1 429 0 2
+Refer: 351 3921 N 1 0 0 1 0 0 3
+Refer: 606 -1 N 1 0 0 1 429 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 11 subtable" uni0F51 uni0F7C_uni0F7C.ccmp
 EndChar
 
 StartChar: uni0F56_uni0F72.abvs
-Encoding: 65683 -1 594
+Encoding: 65683 -1 599
 Width: 486
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 347 3926 N 1 0 0 1 0 0 3
-Refer: 349 3954 N 1 0 0 1 488 0 2
+Refer: 352 3926 N 1 0 0 1 0 0 3
+Refer: 354 3954 N 1 0 0 1 488 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 9 subtable" uni0F56 uni0F72
 EndChar
 
 StartChar: uni0F56_uni0F7C.abvs
-Encoding: 65684 -1 595
+Encoding: 65684 -1 600
 Width: 486
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 347 3926 N 1 0 0 1 0 0 3
-Refer: 600 -1 N 1 0 0 1 452 0 2
+Refer: 352 3926 N 1 0 0 1 0 0 3
+Refer: 605 -1 N 1 0 0 1 452 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 10 subtable" uni0F56 uni0F7C
 EndChar
 
 StartChar: uni0F56_uni0F7C_uni0F7C.ccmp.abvs
-Encoding: 65685 -1 596
+Encoding: 65685 -1 601
 Width: 486
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 347 3926 N 1 0 0 1 0 0 3
-Refer: 601 -1 N 1 0 0 1 480 0 2
+Refer: 352 3926 N 1 0 0 1 0 0 3
+Refer: 606 -1 N 1 0 0 1 480 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 11 subtable" uni0F56 uni0F7C_uni0F7C.ccmp
 EndChar
 
 StartChar: uni0F61_uni0F72.abvs
-Encoding: 65686 -1 597
+Encoding: 65686 -1 602
 Width: 588
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 348 3937 N 1 0 0 1 0 0 3
-Refer: 349 3954 N 1 0 0 1 539 0 2
+Refer: 353 3937 N 1 0 0 1 0 0 3
+Refer: 354 3954 N 1 0 0 1 539 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 9 subtable" uni0F61 uni0F72
 EndChar
 
 StartChar: uni0F61_uni0F7C.abvs
-Encoding: 65687 -1 598
+Encoding: 65687 -1 603
 Width: 588
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 348 3937 N 1 0 0 1 0 0 3
-Refer: 600 -1 N 1 0 0 1 516 0 2
+Refer: 353 3937 N 1 0 0 1 0 0 3
+Refer: 605 -1 N 1 0 0 1 516 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 10 subtable" uni0F61 uni0F7C
 EndChar
 
 StartChar: uni0F61_uni0F7C_uni0F7C.ccmp.abvs
-Encoding: 65688 -1 599
+Encoding: 65688 -1 604
 Width: 588
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 348 3937 N 1 0 0 1 0 0 3
-Refer: 601 -1 N 1 0 0 1 501 0 2
+Refer: 353 3937 N 1 0 0 1 0 0 3
+Refer: 606 -1 N 1 0 0 1 501 0 2
 Ligature2: "'abvs' Above Base Substitutions in Tibetan lookup 11 subtable" uni0F61 uni0F7C_uni0F7C.ccmp
 EndChar
 
 StartChar: glyph30
-Encoding: 65689 -1 600
+Encoding: 65689 -1 605
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -18026,7 +18234,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph32
-Encoding: 65690 -1 601
+Encoding: 65690 -1 606
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -18133,7 +18341,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0F7C_uni0F7C.ccmp
-Encoding: 65691 -1 602
+Encoding: 65691 -1 607
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -18240,7 +18448,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition in Tibetan lookup 8 subtable"
 EndChar
 
 StartChar: glyph34
-Encoding: 65692 -1 603
+Encoding: 65692 -1 608
 Width: 660
 GlyphClass: 2
 Flags: W
@@ -18298,30 +18506,30 @@ EndSplineSet
 EndChar
 
 StartChar: glyph35
-Encoding: 65693 -1 604
+Encoding: 65693 -1 609
 Width: 660
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 603 -1 N 1 0 0 1 0 0 3
-Refer: 349 3954 N 1 0 0 1 575 0 2
+Refer: 608 -1 N 1 0 0 1 0 0 3
+Refer: 354 3954 N 1 0 0 1 575 0 2
 EndChar
 
 StartChar: glyph36
-Encoding: 65694 -1 605
+Encoding: 65694 -1 610
 Width: 660
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 603 -1 N 1 0 0 1 0 0 3
-Refer: 600 -1 N 1 0 0 1 498 0 2
+Refer: 608 -1 N 1 0 0 1 0 0 3
+Refer: 605 -1 N 1 0 0 1 498 0 2
 EndChar
 
-StartChar: uni0C17
-Encoding: 3095 3095 606
-Width: 519
+StartChar: uni0C17_uni0C41.psts
+Encoding: -1 -1 611
+Width: 874
 VWidth: 1024
 GlyphClass: 2
 Flags: W
@@ -18341,21 +18549,158 @@ SplineSet
  488 684 l 1,14,-1
  522 650 l 1,15,-1
  334 462 l 1,16,17
- 405 408 405 408 443.5 286 c 128,-1,18
- 482 164 482 164 482 0 c 1,19,-1
- 418 0 l 1,20,21
- 418 174 418 174 372 296.5 c 128,-1,22
- 326 419 326 419 260 419 c 256,23,24
- 194 419 194 419 148 296.5 c 128,-1,25
- 102 174 102 174 102 0 c 1,26,-1
- 37 0 l 1,27,-1
+ 405 408 405 408 444 286 c 0,18,19
+ 456 246 456 246 465 202 c 1,20,21
+ 485 147 485 147 528 110 c 0,22,23
+ 580 66 580 66 644 66 c 0,24,25
+ 698 66 698 66 736 116 c 128,-1,26
+ 774 166 774 166 774 237 c 0,27,28
+ 774 314 774 314 727 368.5 c 128,-1,29
+ 680 423 680 423 613 423 c 1,30,-1
+ 628 488 l 1,31,32
+ 719 488 719 488 782.5 414 c 128,-1,33
+ 846 340 846 340 846 235 c 0,34,35
+ 846 138 846 138 785 69 c 128,-1,36
+ 724 0 724 0 636 0 c 0,37,38
+ 568 0 568 0 515 40 c 0,39,40
+ 495 54 495 54 480 72 c 1,41,42
+ 482 37 482 37 482 0 c 1,43,-1
+ 418 0 l 1,44,45
+ 418 174 418 174 372 296.5 c 128,-1,46
+ 326 419 326 419 260 419 c 128,-1,47
+ 194 419 194 419 148 296.5 c 128,-1,48
+ 102 174 102 174 102 0 c 1,49,-1
  37 0 l 1,0,1
 EndSplineSet
+Ligature2: "LohitTelugu-'psts' Post Base Substitutions in Telugu lookup 1 subtable" uni0C17 uni0C41
 EndChar
 
-StartChar: uni0C24
-Encoding: 3108 3108 607
-Width: 654
+StartChar: uni0C24_uni0C41.psts
+Encoding: -1 -1 612
+Width: 1017
+VWidth: 1024
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+179 582 m 1,0,-1
+ 231 582 l 1,1,2
+ 231 542 231 542 258.5 514 c 128,-1,3
+ 286 486 286 486 325 486 c 0,4,5
+ 338 486 338 486 355 495 c 128,-1,6
+ 372 504 372 504 389 521 c 2,7,-1
+ 554 678 l 1,8,-1
+ 587 645 l 1,9,-1
+ 420 478 l 1,10,11
+ 509 456 509 456 565.5 399 c 128,-1,12
+ 622 342 622 342 622 274 c 0,13,14
+ 622 230 622 230 611 193 c 1,15,16
+ 632 143 632 143 671 110 c 0,17,18
+ 723 66 723 66 787 66 c 0,19,20
+ 841 66 841 66 879 116 c 128,-1,21
+ 917 166 917 166 917 237 c 0,22,23
+ 917 314 917 314 870 368.5 c 128,-1,24
+ 823 423 823 423 756 423 c 1,25,-1
+ 771 488 l 1,26,27
+ 862 488 862 488 925.5 414 c 128,-1,28
+ 989 340 989 340 989 235 c 0,29,30
+ 989 138 989 138 928 69 c 128,-1,31
+ 867 0 867 0 779 0 c 0,32,33
+ 711 0 711 0 658 40 c 0,34,35
+ 606 78 606 78 589 137 c 1,36,37
+ 570 102 570 102 540 75 c 0,38,39
+ 458 0 458 0 321 0 c 0,40,41
+ 190 0 190 0 111.5 71 c 128,-1,42
+ 33 142 33 142 33 261 c 0,43,44
+ 33 326 33 326 71.5 372.5 c 128,-1,45
+ 110 419 110 419 165 419 c 0,46,47
+ 213 419 213 419 247.5 384.5 c 128,-1,48
+ 282 350 282 350 282 301 c 128,-1,49
+ 282 252 282 252 247.5 217.5 c 128,-1,50
+ 213 183 213 183 165 183 c 0,51,52
+ 148 183 148 183 135 186.5 c 128,-1,53
+ 122 190 122 190 114 197 c 1,54,-1
+ 107 196 l 1,55,56
+ 107 137 107 137 165.5 101.5 c 128,-1,57
+ 224 66 224 66 321 66 c 0,58,59
+ 422 66 422 66 482 101.5 c 128,-1,60
+ 542 137 542 137 542 196 c 1,61,-1
+ 537 197 l 1,62,63
+ 531 190 531 190 519 186.5 c 128,-1,64
+ 507 183 507 183 491 183 c 0,65,66
+ 442 183 442 183 407.5 217.5 c 128,-1,67
+ 373 252 373 252 373 301 c 0,68,69
+ 373 340 373 340 401 369 c 128,-1,70
+ 429 398 429 398 470 402 c 1,71,-1
+ 470 406 l 1,72,73
+ 444 421 444 421 407.5 428 c 128,-1,74
+ 371 435 371 435 328 435 c 0,75,76
+ 266 435 266 435 222.5 478.5 c 128,-1,77
+ 179 522 179 522 179 582 c 1,0,-1
+426 301 m 128,-1,79
+ 426 274 426 274 445 254.5 c 128,-1,80
+ 464 235 464 235 491 235 c 128,-1,81
+ 518 235 518 235 537 254.5 c 128,-1,82
+ 556 274 556 274 556 301 c 128,-1,83
+ 556 328 556 328 537 347 c 128,-1,84
+ 518 366 518 366 491 366 c 128,-1,85
+ 464 366 464 366 445 347 c 128,-1,78
+ 426 328 426 328 426 301 c 128,-1,79
+98 301 m 128,-1,87
+ 98 274 98 274 117.5 254.5 c 128,-1,88
+ 137 235 137 235 165 235 c 0,89,90
+ 192 235 192 235 211 254.5 c 128,-1,91
+ 230 274 230 274 230 301 c 128,-1,92
+ 230 328 230 328 211 347 c 128,-1,93
+ 192 366 192 366 165 366 c 0,94,95
+ 137 366 137 366 117.5 347 c 128,-1,86
+ 98 328 98 328 98 301 c 128,-1,87
+EndSplineSet
+Ligature2: "LohitTelugu-'psts' Post Base Substitutions in Telugu lookup 1 subtable" uni0C24 uni0C41
+EndChar
+
+StartChar: uni0C17_uni0C46.abvs
+Encoding: -1 -1 613
+Width: 519
+VWidth: 1024
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+37 0 m 1,0,1
+ 37 189 37 189 89.5 322.5 c 128,-1,2
+ 142 456 142 456 227 484 c 1,3,-1
+ 227 503 l 1,4,-1
+ 360 503 l 2,5,6
+ 377 503 377 503 388.5 516.5 c 128,-1,7
+ 400 530 400 530 400 550 c 0,8,9
+ 400 568 400 568 388 581 c 128,-1,10
+ 376 594 376 594 359 594 c 2,11,-1
+ 39 594 l 1,12,-1
+ 39 659 l 1,13,-1
+ 355 659 l 2,14,15
+ 401 659 401 659 433 627 c 128,-1,16
+ 465 595 465 595 465 550 c 0,17,18
+ 465 506 465 506 435.5 473.5 c 128,-1,19
+ 406 441 406 441 362 437 c 1,20,21
+ 420 372 420 372 451 259 c 128,-1,22
+ 482 146 482 146 482 0 c 1,23,-1
+ 418 0 l 1,24,25
+ 418 174 418 174 372 296.5 c 128,-1,26
+ 326 419 326 419 260 419 c 256,27,28
+ 194 419 194 419 148 296.5 c 128,-1,29
+ 102 174 102 174 102 0 c 1,30,-1
+ 37 0 l 1,31,-1
+ 37 0 l 1,0,1
+EndSplineSet
+Ligature2: "LohitTelugu-'abvs' Above Base Substitutions in Telugu lookup 0 subtable" uni0C17 uni0C46
+EndChar
+
+StartChar: uni0C24_uni0C46.abvs
+Encoding: 49 -1 614
+Width: 655
 VWidth: 1024
 GlyphClass: 2
 Flags: W
@@ -18382,152 +18727,175 @@ SplineSet
  464 366 464 366 445 347 c 128,-1,24
  426 328 426 328 426 301 c 1,25,-1
  426 301 l 1,13,14
-179 582 m 1,26,-1
- 231 582 l 1,27,28
- 231 542 231 542 258.5 514 c 128,-1,29
- 286 486 286 486 325 486 c 0,30,31
- 338 486 338 486 355 495 c 128,-1,32
- 372 504 372 504 389 521 c 2,33,-1
- 554 678 l 1,34,-1
- 587 645 l 1,35,-1
- 420 478 l 1,36,37
- 509 456 509 456 565.5 399 c 128,-1,38
- 622 342 622 342 622 274 c 0,39,40
- 622 150 622 150 540 75 c 128,-1,41
- 458 0 458 0 321 0 c 0,42,43
- 190 0 190 0 111.5 71 c 128,-1,44
- 33 142 33 142 33 261 c 0,45,46
- 33 326 33 326 71.5 372.5 c 128,-1,47
- 110 419 110 419 165 419 c 0,48,49
- 213 419 213 419 247.5 384.5 c 128,-1,50
- 282 350 282 350 282 301 c 256,51,52
- 282 252 282 252 247.5 217.5 c 128,-1,53
- 213 183 213 183 165 183 c 0,54,55
- 148 183 148 183 135 186.5 c 128,-1,56
- 122 190 122 190 114 197 c 1,57,-1
- 107 196 l 1,58,59
- 107 137 107 137 165.5 101.5 c 128,-1,60
- 224 66 224 66 321 66 c 0,61,62
- 422 66 422 66 482 101.5 c 128,-1,63
- 542 137 542 137 542 196 c 1,64,-1
- 537 197 l 1,65,66
- 531 190 531 190 519 186.5 c 128,-1,67
- 507 183 507 183 491 183 c 0,68,69
- 442 183 442 183 407.5 217.5 c 128,-1,70
- 373 252 373 252 373 301 c 0,71,72
- 373 340 373 340 401 369 c 128,-1,73
- 429 398 429 398 470 402 c 1,74,-1
- 470 406 l 1,75,76
- 444 421 444 421 407.5 428 c 128,-1,77
- 371 435 371 435 328 435 c 0,78,79
- 266 435 266 435 222.5 478.5 c 128,-1,80
- 179 522 179 522 179 582 c 1,81,-1
- 179 582 l 1,26,-1
+470 402 m 1,26,-1
+ 470 406 l 1,27,28
+ 453 420 453 420 426.5 427.5 c 128,-1,29
+ 400 435 400 435 369 435 c 2,30,-1
+ 328 435 l 1,31,-1
+ 328 503 l 1,32,-1
+ 506 503 l 2,33,34
+ 522 503 522 503 534 516.5 c 128,-1,35
+ 546 530 546 530 546 550 c 0,36,37
+ 546 568 546 568 534 581 c 128,-1,38
+ 522 594 522 594 505 594 c 2,39,-1
+ 117 594 l 1,40,-1
+ 117 659 l 1,41,-1
+ 501 659 l 2,42,43
+ 546 659 546 659 578 627 c 128,-1,44
+ 610 595 610 595 610 550 c 0,45,46
+ 610 511 610 511 586.5 480.5 c 128,-1,47
+ 563 450 563 450 526 441 c 1,48,49
+ 571 413 571 413 596.5 368.5 c 128,-1,50
+ 622 324 622 324 622 274 c 0,51,52
+ 622 150 622 150 540 75 c 128,-1,53
+ 458 0 458 0 321 0 c 0,54,55
+ 190 0 190 0 111.5 71 c 128,-1,56
+ 33 142 33 142 33 261 c 0,57,58
+ 33 326 33 326 71.5 372.5 c 128,-1,59
+ 110 419 110 419 165 419 c 0,60,61
+ 213 419 213 419 247.5 384.5 c 128,-1,62
+ 282 350 282 350 282 301 c 256,63,64
+ 282 252 282 252 247.5 217.5 c 128,-1,65
+ 213 183 213 183 165 183 c 0,66,67
+ 148 183 148 183 135 186.5 c 128,-1,68
+ 122 190 122 190 114 197 c 1,69,-1
+ 107 196 l 1,70,71
+ 107 137 107 137 165.5 101.5 c 128,-1,72
+ 224 66 224 66 321 66 c 0,73,74
+ 422 66 422 66 482 101.5 c 128,-1,75
+ 542 137 542 137 542 196 c 1,76,-1
+ 537 197 l 1,77,78
+ 531 190 531 190 519 186.5 c 128,-1,79
+ 507 183 507 183 491 183 c 0,80,81
+ 442 183 442 183 407.5 217.5 c 128,-1,82
+ 373 252 373 252 373 301 c 0,83,84
+ 373 340 373 340 401 369 c 128,-1,85
+ 429 398 429 398 470 402 c 1,86,-1
+ 470 402 l 1,26,-1
 EndSplineSet
+Ligature2: "LohitTelugu-'abvs' Above Base Substitutions in Telugu lookup 0 subtable" uni0C24 uni0C46
 EndChar
 
-StartChar: uni0C32
-Encoding: 3122 3122 608
-Width: 594
+StartChar: uni0C32_uni0C46.abvs
+Encoding: 0 -1 615
+Width: 668
 VWidth: 1024
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-154 366 m 1,0,1
- 154 338 154 338 173 319.5 c 128,-1,2
- 192 301 192 301 219 301 c 256,3,4
- 246 301 246 301 265 319.5 c 128,-1,5
- 284 338 284 338 284 366 c 0,6,7
- 284 393 284 393 265 412 c 128,-1,8
- 246 431 246 431 219 431 c 256,9,10
- 192 431 192 431 173 412 c 128,-1,11
- 154 393 154 393 154 366 c 1,12,-1
- 154 366 l 1,0,1
-298 66 m 1,13,14
- 378 66 378 66 436 123 c 128,-1,15
- 494 180 494 180 494 261 c 0,16,17
- 494 318 494 318 464 363 c 128,-1,18
- 434 408 434 408 386 426 c 1,19,-1
- 408 490 l 1,20,21
- 476 465 476 465 517.5 402 c 128,-1,22
- 559 339 559 339 559 261 c 0,23,24
- 559 153 559 153 482.5 76.5 c 128,-1,25
- 406 0 406 0 298 0 c 0,26,27
- 189 0 189 0 112 76.5 c 128,-1,28
- 35 153 35 153 35 261 c 0,29,30
- 35 354 35 354 89 419 c 128,-1,31
- 143 484 143 484 219 484 c 0,32,33
- 268 484 268 484 303 449 c 128,-1,34
- 338 414 338 414 338 366 c 256,35,36
- 338 318 338 318 303 283.5 c 128,-1,37
- 268 249 268 249 219 249 c 0,38,39
- 179 249 179 249 149 272.5 c 128,-1,40
- 119 296 119 296 113 332 c 1,41,-1
- 109 332 l 1,42,43
- 105 322 105 322 103 304 c 128,-1,44
- 101 286 101 286 101 261 c 0,45,46
- 101 180 101 180 158.5 123 c 128,-1,47
- 216 66 216 66 298 66 c 1,48,-1
- 298 66 l 1,13,14
+152 366 m 1,0,1
+ 152 338 152 338 171 319.5 c 128,-1,2
+ 190 301 190 301 218 301 c 0,3,4
+ 245 301 245 301 264 319.5 c 128,-1,5
+ 283 338 283 338 283 366 c 0,6,7
+ 283 393 283 393 264 412 c 128,-1,8
+ 245 431 245 431 218 431 c 0,9,10
+ 190 431 190 431 171 412 c 128,-1,11
+ 152 393 152 393 152 366 c 1,12,-1
+ 152 366 l 1,0,1
+333 66 m 1,13,14
+ 430 66 430 66 498.5 123 c 128,-1,15
+ 567 180 567 180 567 261 c 0,16,17
+ 567 333 567 333 524.5 384 c 128,-1,18
+ 482 435 482 435 422 435 c 2,19,-1
+ 394 435 l 1,20,-1
+ 394 501 l 1,21,-1
+ 555 501 l 2,22,23
+ 571 501 571 501 582.5 514 c 128,-1,24
+ 594 527 594 527 594 546 c 256,25,26
+ 594 565 594 565 582 578 c 128,-1,27
+ 570 591 570 591 554 591 c 2,28,-1
+ 152 591 l 1,29,-1
+ 152 657 l 1,30,-1
+ 550 657 l 2,31,32
+ 595 657 595 657 627 624.5 c 128,-1,33
+ 659 592 659 592 659 546 c 0,34,35
+ 659 503 659 503 630 471.5 c 128,-1,36
+ 601 440 601 440 558 435 c 1,37,38
+ 593 403 593 403 612.5 357.5 c 128,-1,39
+ 632 312 632 312 632 261 c 0,40,41
+ 632 153 632 153 544.5 76.5 c 128,-1,42
+ 457 0 457 0 333 0 c 256,43,44
+ 209 0 209 0 121.5 76.5 c 128,-1,45
+ 34 153 34 153 34 261 c 0,46,47
+ 34 354 34 354 88 419 c 128,-1,48
+ 142 484 142 484 218 484 c 0,49,50
+ 266 484 266 484 301 449 c 128,-1,51
+ 336 414 336 414 336 366 c 256,52,53
+ 336 318 336 318 301 283.5 c 128,-1,54
+ 266 249 266 249 218 249 c 0,55,56
+ 175 249 175 249 144.5 276.5 c 128,-1,57
+ 114 304 114 304 114 342 c 1,58,-1
+ 110 342 l 1,59,60
+ 104 334 104 334 101.5 314.5 c 128,-1,61
+ 99 295 99 295 99 261 c 0,62,63
+ 99 180 99 180 167.5 123 c 128,-1,64
+ 236 66 236 66 333 66 c 1,65,-1
+ 333 66 l 1,13,14
 EndSplineSet
+Ligature2: "LohitTelugu-'abvs' Above Base Substitutions in Telugu lookup 0 subtable" uni0C32 uni0C46
 EndChar
 
-StartChar: uni0C41
-Encoding: 3137 3137 609
-Width: 368
+StartChar: uni0C32_uni0C41.psts
+Encoding: -1 -1 616
+Width: 960
 VWidth: 1024
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
--70 142 m 1,0,-1
- -56 224 l 1,1,2
- -38 154 -38 154 14 110 c 128,-1,3
- 66 66 66 66 130 66 c 0,4,5
- 184 66 184 66 222 116 c 128,-1,6
- 260 166 260 166 260 237 c 0,7,8
- 260 314 260 314 213 368.5 c 128,-1,9
- 166 423 166 423 99 423 c 1,10,-1
- 114 488 l 1,11,12
- 205 488 205 488 268.5 414 c 128,-1,13
- 332 340 332 340 332 235 c 0,14,15
- 332 138 332 138 271 69 c 128,-1,16
- 210 0 210 0 122 0 c 0,17,18
- 54 0 54 0 0.5 39.5 c 128,-1,19
- -53 79 -53 79 -70 142 c 1,20,-1
- -70 142 l 1,0,-1
+298 66 m 0,0,1
+ 378 66 378 66 436 123 c 128,-1,2
+ 494 180 494 180 494 261 c 0,3,4
+ 494 318 494 318 464 363 c 128,-1,5
+ 434 408 434 408 386 426 c 1,6,-1
+ 408 490 l 1,7,8
+ 476 465 476 465 517.5 402 c 128,-1,9
+ 559 339 559 339 559 261 c 0,10,11
+ 559 156 559 156 614 110 c 0,12,13
+ 666 66 666 66 730 66 c 0,14,15
+ 784 66 784 66 822 116 c 128,-1,16
+ 860 166 860 166 860 237 c 0,17,18
+ 860 314 860 314 813 368.5 c 128,-1,19
+ 766 423 766 423 699 423 c 1,20,-1
+ 714 488 l 1,21,22
+ 805 488 805 488 868.5 414 c 128,-1,23
+ 932 340 932 340 932 235 c 0,24,25
+ 932 138 932 138 871 69 c 128,-1,26
+ 810 0 810 0 722 0 c 0,27,28
+ 654 0 654 0 601 40 c 0,29,30
+ 548 79 548 79 531 141 c 1,31,32
+ 512 106 512 106 482 76 c 0,33,34
+ 406 0 406 0 298 0 c 0,35,36
+ 189 0 189 0 112 76.5 c 128,-1,37
+ 35 153 35 153 35 261 c 0,38,39
+ 35 354 35 354 89 419 c 128,-1,40
+ 143 484 143 484 219 484 c 0,41,42
+ 268 484 268 484 303 449 c 128,-1,43
+ 338 414 338 414 338 366 c 256,44,45
+ 338 318 338 318 303 283.5 c 128,-1,46
+ 268 249 268 249 219 249 c 0,47,48
+ 179 249 179 249 149 272.5 c 128,-1,49
+ 119 296 119 296 113 332 c 1,50,-1
+ 109 332 l 1,51,52
+ 105 322 105 322 103 304 c 128,-1,53
+ 101 286 101 286 101 261 c 0,54,55
+ 101 180 101 180 158.5 123 c 128,-1,56
+ 216 66 216 66 298 66 c 0,0,1
+154 365.5 m 128,-1,58
+ 154 338 154 338 173 319.5 c 128,-1,59
+ 192 301 192 301 219 301 c 128,-1,60
+ 246 301 246 301 265 319.5 c 128,-1,61
+ 284 338 284 338 284 365.5 c 128,-1,62
+ 284 393 284 393 265 412 c 128,-1,63
+ 246 431 246 431 219 431 c 128,-1,64
+ 192 431 192 431 173 412 c 128,-1,57
+ 154 393 154 393 154 365.5 c 128,-1,58
 EndSplineSet
-EndChar
-
-StartChar: uni0C46
-Encoding: 3142 3142 610
-Width: 0
-VWidth: 1024
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
--334 659 m 1,0,-1
- 49 659 l 2,1,2
- 94 659 94 659 126.5 627 c 128,-1,3
- 159 595 159 595 159 550 c 0,4,5
- 159 503 159 503 125.5 470 c 128,-1,6
- 92 437 92 437 45 437 c 2,7,-1
- -78 437 l 1,8,-1
- -78 503 l 1,9,-1
- 54 503 l 2,10,11
- 70 503 70 503 82 516.5 c 128,-1,12
- 94 530 94 530 94 550 c 0,13,14
- 94 568 94 568 82 581 c 128,-1,15
- 70 594 70 594 53 594 c 2,16,-1
- -334 594 l 1,17,-1
- -334 659 l 1,18,-1
- -334 659 l 1,0,-1
-EndSplineSet
+Ligature2: "LohitTelugu-'psts' Post Base Substitutions in Telugu lookup 1 subtable" uni0C32 uni0C41
 EndChar
 EndChars
 EndSplineFont
