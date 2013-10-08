@@ -1,7 +1,7 @@
 Autonym Font
 ===========
 
-A font that can render all language autonyms
+A font that can render all language autonyms.
 
 If we want to show a large number of languages written in their own 
 scripts(autonyms), we cannot apply the usual webfonts to it. This is because
@@ -32,18 +32,20 @@ Assuming you know basics of Automake, Fontforge, Opentype rules, Harfbuzz etc.
 2. Important: The font should have a free license that allows reuse of the
 glyphs. Dont violate any license. Give proper credits.
 3. Use pyftsubset to subset the font.
+
 ```bash
 pyftsubset FontName.ttf --text="YourLanguageAutonym"
 ```
-4. This will create a new font named FontName.ttf.subset
-5. Open the Autonym font using fontforge. Merge the subset font using
-Element->Merge fonts... option to Autonym font
+
+4. This will create a new font named FontName.ttf.subset.
+5. Open the Autonym font using fontforge. Merge the subset font to Autonym font using
+Element->Merge fonts... option.
 6. Run make test to test the newly added glyphs.
 
 License
 ======
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-See COPYING file font more information.
+See COPYING file for more information.
 
 
