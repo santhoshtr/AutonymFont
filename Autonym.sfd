@@ -68,8 +68,8 @@ Lookup: 4 0 0 "'abvs' Above Base Substitutions in Tibetan lookup 10"  {"'abvs' A
 Lookup: 4 0 0 "'abvs' Above Base Substitutions in Tibetan lookup 11"  {"'abvs' Above Base Substitutions in Tibetan lookup 11 subtable"  } ['abvs' ('tibt' <'dflt' > ) ]
 Lookup: 6 0 0 "'abvs' Above Base Substitutions in Tibetan lookup 12"  {"'abvs' Above Base Substitutions in Tibetan lookup 12 subtable"  } ['abvs' ('tibt' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 13"  {"Single Substitution lookup 13 subtable"  } []
-Lookup: 4 0 0 "LohitTelugu-'abvs' Above Base Substitutions in Telugu lookup 0"  {"LohitTelugu-'abvs' Above Base Substitutions in Telugu lookup 0 subtable"  } ['abvs' ('telu' <'dflt' > ) ]
-Lookup: 4 0 0 "LohitTelugu-'psts' Post Base Substitutions in Telugu lookup 1"  {"LohitTelugu-'psts' Post Base Substitutions in Telugu lookup 1 subtable"  } ['psts' ('telu' <'dflt' > ) ]
+Lookup: 4 0 0 "'abvs' Above Base Substitutions in Telugu lookup 0"  {"'abvs' Above Base Substitutions in Telugu lookup 0 subtable"  } ['abvs' ('telu' <'dflt' > ) ]
+Lookup: 4 0 0 "'psts' Post Base Substitutions in Telugu lookup 1"  {"'psts' Post Base Substitutions in Telugu lookup 1 subtable"  } ['psts' ('telu' <'dflt' > ) ]
 Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 0"  {"'mark' Mark Positioning in Arabic lookup 0 subtable"  } ['mark' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 1"  {"'mark' Mark Positioning in Arabic lookup 1 subtable"  } ['mark' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 2"  {"'mkmk' Mark to Mark in Arabic lookup 2 subtable"  } ['mkmk' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
@@ -18572,7 +18572,7 @@ SplineSet
  102 174 102 174 102 0 c 1,49,-1
  37 0 l 1,0,1
 EndSplineSet
-Ligature2: "LohitTelugu-'psts' Post Base Substitutions in Telugu lookup 1 subtable" uni0C17 uni0C41
+Ligature2: "'psts' Post Base Substitutions in Telugu lookup 1 subtable" uni0C17 uni0C41
 EndChar
 
 StartChar: uni0C24_uni0C41.psts
@@ -18657,7 +18657,7 @@ SplineSet
  137 366 137 366 117.5 347 c 128,-1,86
  98 328 98 328 98 301 c 128,-1,87
 EndSplineSet
-Ligature2: "LohitTelugu-'psts' Post Base Substitutions in Telugu lookup 1 subtable" uni0C24 uni0C41
+Ligature2: "'psts' Post Base Substitutions in Telugu lookup 1 subtable" uni0C24 uni0C41
 EndChar
 
 StartChar: uni0C17_uni0C46.abvs
@@ -18695,7 +18695,7 @@ SplineSet
  37 0 l 1,31,-1
  37 0 l 1,0,1
 EndSplineSet
-Ligature2: "LohitTelugu-'abvs' Above Base Substitutions in Telugu lookup 0 subtable" uni0C17 uni0C46
+Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 0 subtable" uni0C17 uni0C46
 EndChar
 
 StartChar: uni0C24_uni0C46.abvs
@@ -18773,7 +18773,7 @@ SplineSet
  429 398 429 398 470 402 c 1,86,-1
  470 402 l 1,26,-1
 EndSplineSet
-Ligature2: "LohitTelugu-'abvs' Above Base Substitutions in Telugu lookup 0 subtable" uni0C24 uni0C46
+Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 0 subtable" uni0C24 uni0C46
 EndChar
 
 StartChar: uni0C32_uni0C46.abvs
@@ -18835,7 +18835,7 @@ SplineSet
  236 66 236 66 333 66 c 1,65,-1
  333 66 l 1,13,14
 EndSplineSet
-Ligature2: "LohitTelugu-'abvs' Above Base Substitutions in Telugu lookup 0 subtable" uni0C32 uni0C46
+Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 0 subtable" uni0C32 uni0C46
 EndChar
 
 StartChar: uni0C32_uni0C41.psts
@@ -18895,7 +18895,7 @@ SplineSet
  192 431 192 431 173 412 c 128,-1,57
  154 393 154 393 154 365.5 c 128,-1,58
 EndSplineSet
-Ligature2: "LohitTelugu-'psts' Post Base Substitutions in Telugu lookup 1 subtable" uni0C32 uni0C41
+Ligature2: "'psts' Post Base Substitutions in Telugu lookup 1 subtable" uni0C32 uni0C41
 EndChar
 EndChars
 EndSplineFont
