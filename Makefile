@@ -37,7 +37,7 @@ test: compile
 	@for font in `echo ${fonts}`; \
 	do \
 		echo "Testing font $${font}";\
-		hb-view $${font}.ttf --debug --text-file autonyms.txt --output-file Autonym.svg; \
+		hb-view $${font}.ttf --debug --text-file autonyms.txt --output-file Autonym.pdf; \
 	done
 
 webfonts: compile
