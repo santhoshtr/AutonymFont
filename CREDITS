@@ -14,16 +14,17 @@ Pyftsubset tool by Behdad helped a lot for glyph extraction.
 Sources of other glyphs
 -----------------------
 Arabic - Droid Arabic Naskh
-Tibetan - Jomolhari
 Bengali - Lohit Bengali
-Telugu - Lohit Telugu
-Tamil - Meera Tamil
-Odia - Lohit Odia
-Malayalam - Meera
-Kannada - Lohit Kannada
-Gujarati - Lohit Gujarati
-Devangari - Lohit Devangari
-Khmer - Hanuman
-Thai - Droid Sans Thai
 Chinese - WenQuanYiMicroHei
+Devangari - Lohit Devangari
+Gujarati - Lohit Gujarati
+Kannada - Lohit Kannada
+Khmer - Hanuman
 Lao - Phetsarath
+Malayalam - Meera
+Odia - Lohit Odia
+Sinhala - LKLUG
+Tamil - Meera Tamil
+Telugu - Lohit Telugu
+Tibetan - Jomolhari
+Thai - Droid Sans Thai
