@@ -34,7 +34,7 @@ Assuming you know basics of Automake, Fontforge, Opentype rules, Harfbuzz etc.
 
 1. Identify a font that has the glyphs for the new language autonym.
 2. Important: The font should have a free license that allows reuse of the
-glyphs. Dont violate any license. Give proper credits.
+glyphs. Don't violate any license. Give proper credits.
 3. Use pyftsubset to subset the font.
 
 ```bash
