@@ -4,18 +4,18 @@ Autonym Font
 A font that can render all language autonyms.
 
 If we want to show a large number of languages written in their own scripts
-(autonyms), we cannot apply the usual webfonts to it. This is because since
-each script require a webfonts, we will end up in using a large number of
+(autonyms), we cannot apply the usual webfonts to it. This is because when
+each script requires a webfont, we will end up using a large number of
 webfonts. This can cause large bandwidth usage.
 
-Examples of this usecase is a language selector.
+An example of this use case is a language selector on a website.
 
 Autonym font tries to solve this. The font contains glyphs and opentype rules
-for rendering the language autonyms. And it contains only those glyphs for a
-language. For example, for Thai, the font has glyphs required for rendering ไทย 
-alone.
+for rendering the language autonyms. And it contains only those glyphs for
+a language. For example, for Thai, the font has glyphs required for
+rendering ไทย alone.
 
-The glyphs for the font is taken from a large number of free licensed Fonts.
+The glyphs for the font is taken from a large number of free licensed fonts.
 See CREDITS file for the full list.
 
 pyftsubset tool from Behdad (https://github.com/behdad/fonttools) helped a lot
@@ -34,7 +34,7 @@ Assuming you know basics of Automake, Fontforge, Opentype rules, Harfbuzz etc.
 
 1. Identify a font that has the glyphs for the new language autonym.
 2. Important: The font should have a free license that allows reuse of the
-glyphs. Dont violate any license. Give proper credits.
+glyphs. Don't violate any license. Give proper credits.
 3. Use pyftsubset to subset the font.
 
 ```bash
