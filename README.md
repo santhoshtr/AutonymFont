@@ -26,6 +26,7 @@ Fontforge is used as the font editing program.
 Download
 ========
 See [releases](https://github.com/santhoshtr/AutonymFont/releases)
+
 Adding a new language autonym to this font
 ==========================================
 
@@ -45,8 +46,17 @@ pyftsubset FontName.ttf --text="YourLanguageAutonym"
 using Element->Merge fonts... option.
 6. Run make test to test the newly added glyphs.
 
+Making usable font files
+========================
+
+To make TTF, WOFF and EOT files that would be usable on your website,
+you may use [sfntly](https://code.google.com/p/sfntly/).
+
+The -h switch should not be used when creating the EOT version, as
+it may cause rendering issues.
+
 License
-======
+=======
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 See COPYING file for more information.
