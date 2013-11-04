@@ -18,8 +18,8 @@ rendering ไทย alone.
 The glyphs for the font is taken from a large number of free licensed fonts.
 See CREDITS file for the full list.
 
-pyftsubset tool from Behdad (https://github.com/behdad/fonttools) helped a lot
-in the develpment of this font.
+The [pyftsubset](https://github.com/behdad/fonttools) tool from Behdad
+helped a lot in the develpment of this font.
 
 Fontforge is used as the font editing program.
 
