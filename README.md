@@ -29,12 +29,12 @@ See [releases](https://github.com/santhoshtr/AutonymFont/releases)
 Adding a new language autonym to this font
 ==========================================
 
-Assuming you know basics of Automake, Fontforge, Opentype rules, Harfbuzz etc.
-(Sorry, font development is not that easy)
+Assuming you know basics of Automake, FontForge, OpenType rules, HarfBuzz etc.
+(Sorry, font development is not that easy.)
 
 1. Identify a font that has the glyphs for the new language autonym.
 2. Important: The font should have a free license that allows reuse of the
-glyphs. Don't violate any license. Give proper credits.
+glyphs. Don't violate any licenses. Give proper credits.
 3. Use pyftsubset to subset the font.
 
 ```bash
