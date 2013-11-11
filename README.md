@@ -23,6 +23,9 @@ in the develpment of this font.
 
 Fontforge is used as the font editing program.
 
+Download
+========
+See [releases](https://github.com/santhoshtr/AutonymFont/releases)
 Adding a new language autonym to this font
 ==========================================
 

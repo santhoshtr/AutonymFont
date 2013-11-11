@@ -1,4 +1,4 @@
-The glyphs for this font is taken from GNU FreeFont project, especially
+Most of the glyphs for this font is taken from GNU FreeFont project, especially
 from the FreeSans font.
 
 http://www.gnu.org/software/freefont/
@@ -8,3 +8,24 @@ See http://www.gnu.org/software/freefont/license.html
 
 Special thanks to Steve White of GNU FreeFont project in helping the glyph
 extraction. Also for his awesome contributions on FreeFont.
+
+Pyftsubset tool by Behdad helped a lot for glyph extraction.
+
+Sources of other glyphs
+-----------------------
+Arabic - Droid Arabic Naskh
+Tibetan - Jomolhari
+Bengali - Lohit Bengali
+Telugu - Lohit Telugu
+Tamil - Meera Tamil
+Odia - Lohit Odia
+Malayalam - Meera
+Kannada - Lohit Kannada
+Gujarati - Lohit Gujarati
+Devangari - Lohit Devangari
+Khmer - Hanuman
+Thai - Droid Sans Thai
+Chinese - WenQuanYiMicroHei
+Lao - Phetsarath
+Divehi - FreeFontThaana
+Javanese - TuladhaJejeg
