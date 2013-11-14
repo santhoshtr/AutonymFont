@@ -21,7 +21,7 @@ See CREDITS file for the full list.
 pyftsubset tool from Behdad (https://github.com/behdad/fonttools) helped a lot
 in the develpment of this font.
 
-Fontforge is used as the font editing program.
+[FontForge](http://fontforge.github.io/) is used as the font editing program.
 
 Download
 ========
@@ -29,7 +29,7 @@ See [releases](https://github.com/santhoshtr/AutonymFont/releases)
 Adding a new language autonym to this font
 ==========================================
 
-Assuming you know basics of Automake, Fontforge, Opentype rules, Harfbuzz etc.
+Assuming you know basics of [Automake](http://www.gnu.org/software/automake/), [FontForge](http://fontforge.github.io/), [OpenType](http://en.wikipedia.org/wiki/OpenType) rules, [Harfbuzz](http://www.freedesktop.org/wiki/Software/HarfBuzz/) etc.
 (Sorry, font development is not that easy)
 
 1. Identify a font that has the glyphs for the new language autonym.
@@ -37,22 +37,21 @@ Assuming you know basics of Automake, Fontforge, Opentype rules, Harfbuzz etc.
 2. Important: The font should have a free license that allows reuse of the
 glyphs. Don't violate any license. Give proper credits.
 
-3. Use pyftsubset to subset the font.
+3. Use [pyftsubset](https://github.com/behdad/fonttools) to subset the font.
 
 	```bash
 	pyftsubset FontName.ttf --text="YourLanguageAutonym"
 	```
 
-4. This will create a new font named FontName.ttf.subset.
+4. This will create a new font named ```FontName.ttf.subset```.
 
-5. Open the Autonym font using fontforge. Merge the subset font to Autonym font
-using Element->Merge fonts... option. Alternatively, you can also use ```merge.pe```.
+5. Open the ```Autonym.sfd``` using FontForge. Merge the subset font using *Element* -> *Merge fonts*, available in top menubar. Alternatively, you can also use ```merge.pe``` from command line.
 
 	```bash
 	./merge.pe FontName.ttf.subset
 	```
 
-6. Run make test to test the newly added glyphs.
+6. Run ```make test``` to test the newly added glyphs.
 
 License
 ======
