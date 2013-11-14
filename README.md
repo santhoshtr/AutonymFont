@@ -46,7 +46,11 @@ glyphs. Don't violate any license. Give proper credits.
 4. This will create a new font named FontName.ttf.subset.
 
 5. Open the Autonym font using fontforge. Merge the subset font to Autonym font
-using Element->Merge fonts... option.
+using Element->Merge fonts... option. Alternatively, you can also use ```merge.pe```.
+
+	```bash
+	./merge.pe FontName.ttf.subset
+	```
 
 6. Run make test to test the newly added glyphs.
 
