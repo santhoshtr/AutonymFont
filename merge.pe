@@ -1,0 +1,9 @@
+#!/usr/bin/env fontforge
+# Merges a derived subset of font into Autonym font
+# usage:
+# chmod +x generate.pe
+# ./merge.pe SubsettedGlyphs.ttf.subset
+
+Open('Autonym.sfd',1)
+MergeFonts($1)
+Save()
