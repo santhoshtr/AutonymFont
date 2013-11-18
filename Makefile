@@ -44,7 +44,7 @@ webfonts: compile
 # generate webfonts
 	@for font in `echo ${fonts}`; \
 	do \
-		sfntly -w -h $${font}.ttf $${font}.woff; \
+		sfntly -w $${font}.ttf $${font}.woff; \
 		sfntly -e -x $${font}.ttf $${font}.eot; \
 		echo "Webfonts generated for $${font}"; \
 	done
