@@ -263,12 +263,7 @@ footer {
 	font-style: normal;
 }
 
-.tilted {
-  position: fixed;
-  left: 100px;
-  top: 0;
-  -webkit-transform: rotate(-20deg);
-  -moz-transform: rotate(-20deg);
-  -o-transform: rotate(-20deg);
-  -ms-transform: rotate(-20deg);
+body {
+  background:url(../images/interlanguagelinks.jpeg) top right no-repeat;
+  background-attachment:fixed;
 }
