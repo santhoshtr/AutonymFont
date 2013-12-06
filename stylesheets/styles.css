@@ -2,8 +2,8 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  /*font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#777;*/
   font-weight:300;
 }
 
@@ -252,4 +252,13 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+@font-face {
+	font-family: 'Autonym';
+	src: url('../fonts/Autonym.eot');
+	src: local('Autonym'),
+		url('../fonts/Autonym.woff') format('woff'),
+		url('../fonts/Autonym.ttf') format('truetype');
+	font-style: normal;
 }

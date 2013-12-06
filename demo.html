@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Autonym font Example</title>
+<meta name="description" content="A test page for the Autonym font" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="javascripts/jquery.uls.data.js"></script>
+<script src="javascripts/jquery.uls.data.utils.js"></script>
+<style>
+@font-face {
+	font-family: 'Autonym';
+	src: url('fonts/Autonym.eot');
+	src: local('Autonym'),
+		url('fonts/Autonym.woff') format('woff'),
+		url('fonts/Autonym.ttf') format('truetype');
+	font-style: normal;
+}
+
+table, th, td {
+	border: 1px solid #ddd;
+	border-collapse:collapse;
+	padding: 5px;
+}
+
+td.lang,
+td.index {
+	background-color: #ccc;
+}
+</style>
+</head>
+<body>
+<h1>Autonym Font</h1>
+<p>The following table in this page uses the <a href="https://github.com/santhoshtr/AutonymFont">Autonym</a>
+ font for displaying language names without font issues.</p>
+<p>Version: 20131118</p>
+<hr/>
+<div>
+<label for="font-selector">Select a font:</label>
+<select id="font-selector">
+	<option value="Autonym">Autonym</option>
+	<option value="sans-serif">sans-serif</option>
+	<option value="Autonym, sans-serif">Autonym, sans-serif</option>
+	<option value="sans-serif, Autonym">sans-serif, Autonym</option>
+</select>
+<select id="size-selector">
+	<option value="8">Select size (px)</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+	<option value="13">13</option>
+	<option value="14">14</option>
+	<option value="16">16</option>
+	<option value="20">20</option>
+	<option value="24">24</option>
+	<option value="30">30</option>
+	<option value="36">36</option>
+	<option value="48">48</option>
+</select>
+<table><tr></tr></table>
+<div>A dropdown example:
+<select class="dropdown autonym">
+</select>
+</div>
+<script>
+var index = 1,
+	$fontSelector = $( '#font-selector' ),
+	$sizeSelector = $( '#size-selector' );
+
+$fontSelector.change( function () {
+	$( '.autonym' ).css( 'font-family', $( this ).val() );
+});
+
+$sizeSelector.change( function () {
+	$( '.autonym' ).css( 'font-size', $( this ).val() + 'px' );
+});
+
+$.each( $.uls.data.languages, function( langCode ) {
+	var autonym = $.uls.data.getAutonym( langCode ),
+		dir = $.uls.data.getDir( langCode );
+
+	$( '.dropdown' ).append(
+		$( '<option>')
+			.attr( {
+				lang: langCode,
+				dir: dir
+			} )
+			.text( autonym )
+	);
+
+	$( 'table' ).append(
+		$( '<tr>' ).append(
+			$( '<td>' )
+				.addClass( 'index' )
+				.text( index++ ),
+			$( '<td>' )
+				.addClass( 'lang' )
+				.text( langCode ),
+			$( '<td>' )
+				.addClass( 'name autonym' )
+				.attr( {
+					lang: langCode,
+					dir: dir
+				} )
+				.text( autonym )
+		)
+	);
+} );
+
+// Apply the initial font
+$( '.autonym' ).css( 'font-family', $fontSelector.val() );
+</script>
+</div>
+</body>
