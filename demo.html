@@ -27,6 +27,22 @@ td.lang,
 td.index {
 	background-color: #ccc;
 }
+
+form {
+	margin: 0.5em;
+}
+
+input {
+	margin-left: 2em;
+}
+
+output {
+	vertical-align: top;
+	display: inline-block;
+}
+output:after {
+	content: "px";
+}
 </style>
 </head>
 <body>
@@ -35,34 +51,28 @@ td.index {
  font for displaying language names without font issues.</p>
 <p>Version: 20131118</p>
 <hr/>
-<div>
-<label for="font-selector">Select a font:</label>
-<select id="font-selector">
-	<option value="Autonym">Autonym</option>
-	<option value="sans-serif">sans-serif</option>
-	<option value="Autonym, sans-serif">Autonym, sans-serif</option>
-	<option value="sans-serif, Autonym">sans-serif, Autonym</option>
-</select>
-<select id="size-selector">
-	<option value="8">Select size (px)</option>
-	<option value="8">8</option>
-	<option value="9">9</option>
-	<option value="10">10</option>
-	<option value="11">11</option>
-	<option value="12">12</option>
-	<option value="13">13</option>
-	<option value="14">14</option>
-	<option value="16">16</option>
-	<option value="20">20</option>
-	<option value="24">24</option>
-	<option value="30">30</option>
-	<option value="36">36</option>
-	<option value="48">48</option>
-</select>
+<div id="controls">
+Font family:
+<form id="font-selector">
+	<input type="radio" value="Autonym" id="auto" name="fontFamily" checked="checked">
+	<label for="auto">Autonym</label>
+	<input type="radio" value="sans-serif" id="sans" name="fontFamily">
+	<label for="font-selector-sans">sans-serif</label>
+	<input type="radio" value="Autonym, sans-serif" id="auto-sans" name="fontFamily">
+	<label for="font-selector-autonym-sans">Autonym, sans-serif</label>
+	<input type="radio" value="sans-serif, Autonym" id="sans-auto" name="fontFamily">
+	<label for="font-selector-sans-autonym">sans-serif, Autonym</label>
+</form>
+Font size:
+<form id="size-selector" oninput="display.value=fontSize.value">
+	<input type="range" name="fontSize" min="8" max="48" value="16">
+	<output name="display" for="fontSize">16</output>
+</form>
+</div>
 <table><tr></tr></table>
-<div>A dropdown example:
-<select class="dropdown autonym">
-</select>
+<div>
+	A dropdown example:
+	<select class="dropdown autonym"></select>
 </div>
 <script>
 var index = 1,
@@ -70,11 +80,11 @@ var index = 1,
 	$sizeSelector = $( '#size-selector' );
 
 $fontSelector.change( function () {
-	$( '.autonym' ).css( 'font-family', $( this ).val() );
+	$( '.autonym' ).css( 'font-family', $( this ).find("input[name=fontFamily]:checked").val() );
 });
 
 $sizeSelector.change( function () {
-	$( '.autonym' ).css( 'font-size', $( this ).val() + 'px' );
+	$( '.autonym' ).css( 'font-size', $( this ).find("input[name=fontSize]").val() + 'px' );
 });
 
 $.each( $.uls.data.languages, function( langCode ) {
@@ -110,7 +120,7 @@ $.each( $.uls.data.languages, function( langCode ) {
 } );
 
 // Apply the initial font
-$( '.autonym' ).css( 'font-family', $fontSelector.val() );
+$( '.autonym' ).css( 'font-family', $fontSelector.find("input[name=fontFamily]:checked").val() );
 </script>
 </div>
 </body>
