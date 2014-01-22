@@ -30,7 +30,18 @@ td.index {
 }
 
 form {
-	display: inline-block;
+	margin: 0.5em;
+}
+
+input {
+	margin-left: 2em;
+}
+
+output {
+	vertical-align: top;
+}
+output:after {
+	content: "px";
 }
 </style>
 </head>
@@ -55,7 +66,7 @@ Font family:
 Font size:
 <form id="size-selector" oninput="display.value=fontSize.value">
 	<input type="range" name="fontSize" min="8" max="48" value="16">
-	<output name="display" for="fontSize">16</output>px
+	<output name="display" for="fontSize">16</output>
 </form>
 </div>
 <table><tr></tr></table>
@@ -109,7 +120,7 @@ $.each( $.uls.data.languages, function( langCode ) {
 } );
 
 // Apply the initial font
-$( '.autonym' ).css( 'font-family', $fontSelector.val() );
+$( '.autonym' ).css( 'font-family', $fontSelector.find("input[name=fontSize]").val() );
 </script>
 </div>
 </body>
