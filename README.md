@@ -3,8 +3,10 @@ Autonym Font
 
 A font that can render all language autonyms.
 
-If we want to show a large number of languages written in their own scripts
-(autonyms), we cannot apply the usual webfonts to it. This is because when
+Language autonym means language written in its own script. Example: ગુજરાત, ქართული
+
+If we want to show a large number of language autonyms, we cannot apply
+the usual webfonts to it. This is because when
 each script requires a webfont, we will end up using a large number of
 webfonts. This can cause large bandwidth usage.
 
